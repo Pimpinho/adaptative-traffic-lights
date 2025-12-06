@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2025-11-27 13:29:05 by Eclipse SUMO duarouter Version 1.22.0
+<!-- generated on 2025-12-06 00:23:06 by Eclipse SUMO duarouter Version 1.22.0
 <duarouterConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
 
     <input>
@@ -453,11 +453,6 @@
             <route cost="303.91" probability="1.00000000" edges="inter1Origem -E5 -E1 E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.1" type="car" depart="64.00" departLane="best" departPos="last">
-        <routeDistribution last="0">
-            <route cost="74.99" probability="1.00000000" edges="inter1Origem -E5 inter2Destino"/>
-        </routeDistribution>
-    </vehicle>
     <vehicle id="saida_ufal_to_C.4" type="car" depart="64.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="304.15" probability="1.00000000" edges="saidaufal E1 E5 cDestino"/>
@@ -466,11 +461,6 @@
     <vehicle id="saida_ufal_to_D.4" type="car" depart="64.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="224.00" probability="1.00000000" edges="saidaufal E3 dDestino"/>
-        </routeDistribution>
-    </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.1" type="car" depart="64.00" departLane="best" departPos="last">
-        <routeDistribution last="0">
-            <route cost="232.57" probability="1.00000000" edges="saidaufal E1 inter2Destino"/>
         </routeDistribution>
     </vehicle>
     <vehicle id="C_car.14" type="car" depart="64.54" departLane="best" departPos="last">
@@ -778,7 +768,7 @@
             <route cost="303.91" probability="1.00000000" edges="inter1Origem -E5 -E1 E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.2" type="car" depart="128.00" departLane="best" departPos="last">
+    <vehicle id="inter1Origem_to_inter2Destino.1" type="car" depart="128.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="74.99" probability="1.00000000" edges="inter1Origem -E5 inter2Destino"/>
         </routeDistribution>
@@ -793,7 +783,7 @@
             <route cost="224.00" probability="1.00000000" edges="saidaufal E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.2" type="car" depart="128.00" departLane="best" departPos="last">
+    <vehicle id="saida_ufal_to_inter2Destino.1" type="car" depart="128.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="232.57" probability="1.00000000" edges="saidaufal E1 inter2Destino"/>
         </routeDistribution>
@@ -1108,11 +1098,6 @@
             <route cost="303.91" probability="1.00000000" edges="inter1Origem -E5 -E1 E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.3" type="car" depart="192.00" departLane="best" departPos="last">
-        <routeDistribution last="0">
-            <route cost="74.99" probability="1.00000000" edges="inter1Origem -E5 inter2Destino"/>
-        </routeDistribution>
-    </vehicle>
     <vehicle id="saida_ufal_to_C.12" type="car" depart="192.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="304.15" probability="1.00000000" edges="saidaufal E1 E5 cDestino"/>
@@ -1121,11 +1106,6 @@
     <vehicle id="saida_ufal_to_D.12" type="car" depart="192.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="224.00" probability="1.00000000" edges="saidaufal E3 dDestino"/>
-        </routeDistribution>
-    </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.3" type="car" depart="192.00" departLane="best" departPos="last">
-        <routeDistribution last="0">
-            <route cost="232.57" probability="1.00000000" edges="saidaufal E1 inter2Destino"/>
         </routeDistribution>
     </vehicle>
     <vehicle id="C_car.42" type="car" depart="193.62" departLane="best" departPos="last">
@@ -1443,7 +1423,7 @@
             <route cost="303.91" probability="1.00000000" edges="inter1Origem -E5 -E1 E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.4" type="car" depart="256.00" departLane="best" departPos="last">
+    <vehicle id="inter1Origem_to_inter2Destino.2" type="car" depart="256.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="74.99" probability="1.00000000" edges="inter1Origem -E5 inter2Destino"/>
         </routeDistribution>
@@ -1458,7 +1438,7 @@
             <route cost="224.00" probability="1.00000000" edges="saidaufal E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.4" type="car" depart="256.00" departLane="best" departPos="last">
+    <vehicle id="saida_ufal_to_inter2Destino.2" type="car" depart="256.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="232.57" probability="1.00000000" edges="saidaufal E1 inter2Destino"/>
         </routeDistribution>
@@ -1783,11 +1763,6 @@
             <route cost="303.91" probability="1.00000000" edges="inter1Origem -E5 -E1 E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.5" type="car" depart="320.00" departLane="best" departPos="last">
-        <routeDistribution last="0">
-            <route cost="74.99" probability="1.00000000" edges="inter1Origem -E5 inter2Destino"/>
-        </routeDistribution>
-    </vehicle>
     <vehicle id="saida_ufal_to_C.20" type="car" depart="320.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="304.15" probability="1.00000000" edges="saidaufal E1 E5 cDestino"/>
@@ -1796,11 +1771,6 @@
     <vehicle id="saida_ufal_to_D.20" type="car" depart="320.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="224.00" probability="1.00000000" edges="saidaufal E3 dDestino"/>
-        </routeDistribution>
-    </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.5" type="car" depart="320.00" departLane="best" departPos="last">
-        <routeDistribution last="0">
-            <route cost="232.57" probability="1.00000000" edges="saidaufal E1 inter2Destino"/>
         </routeDistribution>
     </vehicle>
     <vehicle id="C_car.70" type="car" depart="322.70" departLane="best" departPos="last">
@@ -2108,7 +2078,7 @@
             <route cost="303.91" probability="1.00000000" edges="inter1Origem -E5 -E1 E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.6" type="car" depart="384.00" departLane="best" departPos="last">
+    <vehicle id="inter1Origem_to_inter2Destino.3" type="car" depart="384.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="74.99" probability="1.00000000" edges="inter1Origem -E5 inter2Destino"/>
         </routeDistribution>
@@ -2123,7 +2093,7 @@
             <route cost="224.00" probability="1.00000000" edges="saidaufal E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.6" type="car" depart="384.00" departLane="best" departPos="last">
+    <vehicle id="saida_ufal_to_inter2Destino.3" type="car" depart="384.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="232.57" probability="1.00000000" edges="saidaufal E1 inter2Destino"/>
         </routeDistribution>
@@ -2438,11 +2408,6 @@
             <route cost="303.91" probability="1.00000000" edges="inter1Origem -E5 -E1 E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.7" type="car" depart="448.00" departLane="best" departPos="last">
-        <routeDistribution last="0">
-            <route cost="74.99" probability="1.00000000" edges="inter1Origem -E5 inter2Destino"/>
-        </routeDistribution>
-    </vehicle>
     <vehicle id="saida_ufal_to_C.28" type="car" depart="448.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="304.15" probability="1.00000000" edges="saidaufal E1 E5 cDestino"/>
@@ -2451,11 +2416,6 @@
     <vehicle id="saida_ufal_to_D.28" type="car" depart="448.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="224.00" probability="1.00000000" edges="saidaufal E3 dDestino"/>
-        </routeDistribution>
-    </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.7" type="car" depart="448.00" departLane="best" departPos="last">
-        <routeDistribution last="0">
-            <route cost="232.57" probability="1.00000000" edges="saidaufal E1 inter2Destino"/>
         </routeDistribution>
     </vehicle>
     <vehicle id="D_car.85" type="car" depart="451.01" departLane="best" departPos="last">
@@ -2778,7 +2738,7 @@
             <route cost="303.91" probability="1.00000000" edges="inter1Origem -E5 -E1 E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.8" type="car" depart="512.00" departLane="best" departPos="last">
+    <vehicle id="inter1Origem_to_inter2Destino.4" type="car" depart="512.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="74.99" probability="1.00000000" edges="inter1Origem -E5 inter2Destino"/>
         </routeDistribution>
@@ -2793,7 +2753,7 @@
             <route cost="224.00" probability="1.00000000" edges="saidaufal E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.8" type="car" depart="512.00" departLane="best" departPos="last">
+    <vehicle id="saida_ufal_to_inter2Destino.4" type="car" depart="512.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="232.57" probability="1.00000000" edges="saidaufal E1 inter2Destino"/>
         </routeDistribution>
@@ -3098,11 +3058,6 @@
             <route cost="303.91" probability="1.00000000" edges="inter1Origem -E5 -E1 E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.9" type="car" depart="576.00" departLane="best" departPos="last">
-        <routeDistribution last="0">
-            <route cost="74.99" probability="1.00000000" edges="inter1Origem -E5 inter2Destino"/>
-        </routeDistribution>
-    </vehicle>
     <vehicle id="saida_ufal_to_C.36" type="car" depart="576.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="304.15" probability="1.00000000" edges="saidaufal E1 E5 cDestino"/>
@@ -3111,11 +3066,6 @@
     <vehicle id="saida_ufal_to_D.36" type="car" depart="576.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="224.00" probability="1.00000000" edges="saidaufal E3 dDestino"/>
-        </routeDistribution>
-    </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.9" type="car" depart="576.00" departLane="best" departPos="last">
-        <routeDistribution last="0">
-            <route cost="232.57" probability="1.00000000" edges="saidaufal E1 inter2Destino"/>
         </routeDistribution>
     </vehicle>
     <vehicle id="C_car.125" type="car" depart="576.25" departLane="best" departPos="last">
@@ -3463,7 +3413,7 @@
             <route cost="303.91" probability="1.00000000" edges="inter1Origem -E5 -E1 E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.10" type="car" depart="640.00" departLane="best" departPos="last">
+    <vehicle id="inter1Origem_to_inter2Destino.5" type="car" depart="640.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="74.99" probability="1.00000000" edges="inter1Origem -E5 inter2Destino"/>
         </routeDistribution>
@@ -3478,7 +3428,7 @@
             <route cost="224.00" probability="1.00000000" edges="saidaufal E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.10" type="car" depart="640.00" departLane="best" departPos="last">
+    <vehicle id="saida_ufal_to_inter2Destino.5" type="car" depart="640.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="232.57" probability="1.00000000" edges="saidaufal E1 inter2Destino"/>
         </routeDistribution>
@@ -3778,11 +3728,6 @@
             <route cost="303.91" probability="1.00000000" edges="inter1Origem -E5 -E1 E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.11" type="car" depart="704.00" departLane="best" departPos="last">
-        <routeDistribution last="0">
-            <route cost="74.99" probability="1.00000000" edges="inter1Origem -E5 inter2Destino"/>
-        </routeDistribution>
-    </vehicle>
     <vehicle id="saida_ufal_to_C.44" type="car" depart="704.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="304.15" probability="1.00000000" edges="saidaufal E1 E5 cDestino"/>
@@ -3791,11 +3736,6 @@
     <vehicle id="saida_ufal_to_D.44" type="car" depart="704.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="224.00" probability="1.00000000" edges="saidaufal E3 dDestino"/>
-        </routeDistribution>
-    </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.11" type="car" depart="704.00" departLane="best" departPos="last">
-        <routeDistribution last="0">
-            <route cost="232.57" probability="1.00000000" edges="saidaufal E1 inter2Destino"/>
         </routeDistribution>
     </vehicle>
     <vehicle id="C_car.153" type="car" depart="705.33" departLane="best" departPos="last">
@@ -4103,7 +4043,7 @@
             <route cost="303.91" probability="1.00000000" edges="inter1Origem -E5 -E1 E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.12" type="car" depart="768.00" departLane="best" departPos="last">
+    <vehicle id="inter1Origem_to_inter2Destino.6" type="car" depart="768.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="74.99" probability="1.00000000" edges="inter1Origem -E5 inter2Destino"/>
         </routeDistribution>
@@ -4118,7 +4058,7 @@
             <route cost="224.00" probability="1.00000000" edges="saidaufal E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.12" type="car" depart="768.00" departLane="best" departPos="last">
+    <vehicle id="saida_ufal_to_inter2Destino.6" type="car" depart="768.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="232.57" probability="1.00000000" edges="saidaufal E1 inter2Destino"/>
         </routeDistribution>
@@ -4443,11 +4383,6 @@
             <route cost="303.91" probability="1.00000000" edges="inter1Origem -E5 -E1 E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.13" type="car" depart="832.00" departLane="best" departPos="last">
-        <routeDistribution last="0">
-            <route cost="74.99" probability="1.00000000" edges="inter1Origem -E5 inter2Destino"/>
-        </routeDistribution>
-    </vehicle>
     <vehicle id="saida_ufal_to_C.52" type="car" depart="832.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="304.15" probability="1.00000000" edges="saidaufal E1 E5 cDestino"/>
@@ -4456,11 +4391,6 @@
     <vehicle id="saida_ufal_to_D.52" type="car" depart="832.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="224.00" probability="1.00000000" edges="saidaufal E3 dDestino"/>
-        </routeDistribution>
-    </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.13" type="car" depart="832.00" departLane="best" departPos="last">
-        <routeDistribution last="0">
-            <route cost="232.57" probability="1.00000000" edges="saidaufal E1 inter2Destino"/>
         </routeDistribution>
     </vehicle>
     <vehicle id="D_car.157" type="car" depart="833.04" departLane="best" departPos="last">
@@ -4773,7 +4703,7 @@
             <route cost="303.91" probability="1.00000000" edges="inter1Origem -E5 -E1 E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.14" type="car" depart="896.00" departLane="best" departPos="last">
+    <vehicle id="inter1Origem_to_inter2Destino.7" type="car" depart="896.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="74.99" probability="1.00000000" edges="inter1Origem -E5 inter2Destino"/>
         </routeDistribution>
@@ -4788,7 +4718,7 @@
             <route cost="224.00" probability="1.00000000" edges="saidaufal E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.14" type="car" depart="896.00" departLane="best" departPos="last">
+    <vehicle id="saida_ufal_to_inter2Destino.7" type="car" depart="896.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="232.57" probability="1.00000000" edges="saidaufal E1 inter2Destino"/>
         </routeDistribution>
@@ -5113,11 +5043,6 @@
             <route cost="303.91" probability="1.00000000" edges="inter1Origem -E5 -E1 E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.15" type="car" depart="960.00" departLane="best" departPos="last">
-        <routeDistribution last="0">
-            <route cost="74.99" probability="1.00000000" edges="inter1Origem -E5 inter2Destino"/>
-        </routeDistribution>
-    </vehicle>
     <vehicle id="saida_ufal_to_C.60" type="car" depart="960.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="304.15" probability="1.00000000" edges="saidaufal E1 E5 cDestino"/>
@@ -5126,11 +5051,6 @@
     <vehicle id="saida_ufal_to_D.60" type="car" depart="960.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="224.00" probability="1.00000000" edges="saidaufal E3 dDestino"/>
-        </routeDistribution>
-    </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.15" type="car" depart="960.00" departLane="best" departPos="last">
-        <routeDistribution last="0">
-            <route cost="232.57" probability="1.00000000" edges="saidaufal E1 inter2Destino"/>
         </routeDistribution>
     </vehicle>
     <vehicle id="D_car.181" type="car" depart="960.39" departLane="best" departPos="last">
@@ -5443,7 +5363,7 @@
             <route cost="303.91" probability="1.00000000" edges="inter1Origem -E5 -E1 E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.16" type="car" depart="1024.00" departLane="best" departPos="last">
+    <vehicle id="inter1Origem_to_inter2Destino.8" type="car" depart="1024.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="74.99" probability="1.00000000" edges="inter1Origem -E5 inter2Destino"/>
         </routeDistribution>
@@ -5458,7 +5378,7 @@
             <route cost="224.00" probability="1.00000000" edges="saidaufal E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.16" type="car" depart="1024.00" departLane="best" departPos="last">
+    <vehicle id="saida_ufal_to_inter2Destino.8" type="car" depart="1024.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="232.57" probability="1.00000000" edges="saidaufal E1 inter2Destino"/>
         </routeDistribution>
@@ -5783,11 +5703,6 @@
             <route cost="303.91" probability="1.00000000" edges="inter1Origem -E5 -E1 E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.17" type="car" depart="1088.00" departLane="best" departPos="last">
-        <routeDistribution last="0">
-            <route cost="74.99" probability="1.00000000" edges="inter1Origem -E5 inter2Destino"/>
-        </routeDistribution>
-    </vehicle>
     <vehicle id="saida_ufal_to_C.68" type="car" depart="1088.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="304.15" probability="1.00000000" edges="saidaufal E1 E5 cDestino"/>
@@ -5796,11 +5711,6 @@
     <vehicle id="saida_ufal_to_D.68" type="car" depart="1088.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="224.00" probability="1.00000000" edges="saidaufal E3 dDestino"/>
-        </routeDistribution>
-    </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.17" type="car" depart="1088.00" departLane="best" departPos="last">
-        <routeDistribution last="0">
-            <route cost="232.57" probability="1.00000000" edges="saidaufal E1 inter2Destino"/>
         </routeDistribution>
     </vehicle>
     <vehicle id="C_motorcycle.205" type="motorcycle" depart="1089.58" departLane="best" departPos="last">
@@ -6123,7 +6033,7 @@
             <route cost="303.91" probability="1.00000000" edges="inter1Origem -E5 -E1 E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.18" type="car" depart="1152.00" departLane="best" departPos="last">
+    <vehicle id="inter1Origem_to_inter2Destino.9" type="car" depart="1152.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="74.99" probability="1.00000000" edges="inter1Origem -E5 inter2Destino"/>
         </routeDistribution>
@@ -6138,7 +6048,7 @@
             <route cost="224.00" probability="1.00000000" edges="saidaufal E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.18" type="car" depart="1152.00" departLane="best" departPos="last">
+    <vehicle id="saida_ufal_to_inter2Destino.9" type="car" depart="1152.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="232.57" probability="1.00000000" edges="saidaufal E1 inter2Destino"/>
         </routeDistribution>
@@ -6453,11 +6363,6 @@
             <route cost="303.91" probability="1.00000000" edges="inter1Origem -E5 -E1 E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.19" type="car" depart="1216.00" departLane="best" departPos="last">
-        <routeDistribution last="0">
-            <route cost="74.99" probability="1.00000000" edges="inter1Origem -E5 inter2Destino"/>
-        </routeDistribution>
-    </vehicle>
     <vehicle id="saida_ufal_to_C.76" type="car" depart="1216.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="304.15" probability="1.00000000" edges="saidaufal E1 E5 cDestino"/>
@@ -6466,11 +6371,6 @@
     <vehicle id="saida_ufal_to_D.76" type="car" depart="1216.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="224.00" probability="1.00000000" edges="saidaufal E3 dDestino"/>
-        </routeDistribution>
-    </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.19" type="car" depart="1216.00" departLane="best" departPos="last">
-        <routeDistribution last="0">
-            <route cost="232.57" probability="1.00000000" edges="saidaufal E1 inter2Destino"/>
         </routeDistribution>
     </vehicle>
     <vehicle id="C_car.264" type="car" depart="1217.04" departLane="best" departPos="last">
@@ -6803,7 +6703,7 @@
             <route cost="303.91" probability="1.00000000" edges="inter1Origem -E5 -E1 E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.20" type="car" depart="1280.00" departLane="best" departPos="last">
+    <vehicle id="inter1Origem_to_inter2Destino.10" type="car" depart="1280.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="74.99" probability="1.00000000" edges="inter1Origem -E5 inter2Destino"/>
         </routeDistribution>
@@ -6818,7 +6718,7 @@
             <route cost="224.00" probability="1.00000000" edges="saidaufal E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.20" type="car" depart="1280.00" departLane="best" departPos="last">
+    <vehicle id="saida_ufal_to_inter2Destino.10" type="car" depart="1280.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="232.57" probability="1.00000000" edges="saidaufal E1 inter2Destino"/>
         </routeDistribution>
@@ -7123,11 +7023,6 @@
             <route cost="303.91" probability="1.00000000" edges="inter1Origem -E5 -E1 E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.21" type="car" depart="1344.00" departLane="best" departPos="last">
-        <routeDistribution last="0">
-            <route cost="74.99" probability="1.00000000" edges="inter1Origem -E5 inter2Destino"/>
-        </routeDistribution>
-    </vehicle>
     <vehicle id="saida_ufal_to_C.84" type="car" depart="1344.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="304.15" probability="1.00000000" edges="saidaufal E1 E5 cDestino"/>
@@ -7136,11 +7031,6 @@
     <vehicle id="saida_ufal_to_D.84" type="car" depart="1344.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="224.00" probability="1.00000000" edges="saidaufal E3 dDestino"/>
-        </routeDistribution>
-    </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.21" type="car" depart="1344.00" departLane="best" departPos="last">
-        <routeDistribution last="0">
-            <route cost="232.57" probability="1.00000000" edges="saidaufal E1 inter2Destino"/>
         </routeDistribution>
     </vehicle>
     <vehicle id="C_motorcycle.253" type="motorcycle" depart="1344.70" departLane="best" departPos="last">
@@ -7453,7 +7343,7 @@
             <route cost="303.91" probability="1.00000000" edges="inter1Origem -E5 -E1 E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.22" type="car" depart="1408.00" departLane="best" departPos="last">
+    <vehicle id="inter1Origem_to_inter2Destino.11" type="car" depart="1408.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="74.99" probability="1.00000000" edges="inter1Origem -E5 inter2Destino"/>
         </routeDistribution>
@@ -7468,7 +7358,7 @@
             <route cost="224.00" probability="1.00000000" edges="saidaufal E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.22" type="car" depart="1408.00" departLane="best" departPos="last">
+    <vehicle id="saida_ufal_to_inter2Destino.11" type="car" depart="1408.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="232.57" probability="1.00000000" edges="saidaufal E1 inter2Destino"/>
         </routeDistribution>
@@ -7783,11 +7673,6 @@
             <route cost="303.91" probability="1.00000000" edges="inter1Origem -E5 -E1 E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.23" type="car" depart="1472.00" departLane="best" departPos="last">
-        <routeDistribution last="0">
-            <route cost="74.99" probability="1.00000000" edges="inter1Origem -E5 inter2Destino"/>
-        </routeDistribution>
-    </vehicle>
     <vehicle id="saida_ufal_to_C.92" type="car" depart="1472.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="304.15" probability="1.00000000" edges="saidaufal E1 E5 cDestino"/>
@@ -7796,11 +7681,6 @@
     <vehicle id="saida_ufal_to_D.92" type="car" depart="1472.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="224.00" probability="1.00000000" edges="saidaufal E3 dDestino"/>
-        </routeDistribution>
-    </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.23" type="car" depart="1472.00" departLane="best" departPos="last">
-        <routeDistribution last="0">
-            <route cost="232.57" probability="1.00000000" edges="saidaufal E1 inter2Destino"/>
         </routeDistribution>
     </vehicle>
     <vehicle id="C_motorcycle.277" type="motorcycle" depart="1472.26" departLane="best" departPos="last">
@@ -8118,7 +7998,7 @@
             <route cost="303.91" probability="1.00000000" edges="inter1Origem -E5 -E1 E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.24" type="car" depart="1536.00" departLane="best" departPos="last">
+    <vehicle id="inter1Origem_to_inter2Destino.12" type="car" depart="1536.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="74.99" probability="1.00000000" edges="inter1Origem -E5 inter2Destino"/>
         </routeDistribution>
@@ -8133,7 +8013,7 @@
             <route cost="224.00" probability="1.00000000" edges="saidaufal E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.24" type="car" depart="1536.00" departLane="best" departPos="last">
+    <vehicle id="saida_ufal_to_inter2Destino.12" type="car" depart="1536.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="232.57" probability="1.00000000" edges="saidaufal E1 inter2Destino"/>
         </routeDistribution>
@@ -8483,11 +8363,6 @@
             <route cost="303.91" probability="1.00000000" edges="inter1Origem -E5 -E1 E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.25" type="car" depart="1600.00" departLane="best" departPos="last">
-        <routeDistribution last="0">
-            <route cost="74.99" probability="1.00000000" edges="inter1Origem -E5 inter2Destino"/>
-        </routeDistribution>
-    </vehicle>
     <vehicle id="saida_ufal_to_C.100" type="car" depart="1600.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="304.15" probability="1.00000000" edges="saidaufal E1 E5 cDestino"/>
@@ -8496,11 +8371,6 @@
     <vehicle id="saida_ufal_to_D.100" type="car" depart="1600.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="224.00" probability="1.00000000" edges="saidaufal E3 dDestino"/>
-        </routeDistribution>
-    </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.25" type="car" depart="1600.00" departLane="best" departPos="last">
-        <routeDistribution last="0">
-            <route cost="232.57" probability="1.00000000" edges="saidaufal E1 inter2Destino"/>
         </routeDistribution>
     </vehicle>
     <vehicle id="D_car.302" type="car" depart="1602.41" departLane="best" departPos="last">
@@ -8798,7 +8668,7 @@
             <route cost="303.91" probability="1.00000000" edges="inter1Origem -E5 -E1 E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.26" type="car" depart="1664.00" departLane="best" departPos="last">
+    <vehicle id="inter1Origem_to_inter2Destino.13" type="car" depart="1664.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="74.99" probability="1.00000000" edges="inter1Origem -E5 inter2Destino"/>
         </routeDistribution>
@@ -8813,7 +8683,7 @@
             <route cost="224.00" probability="1.00000000" edges="saidaufal E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.26" type="car" depart="1664.00" departLane="best" departPos="last">
+    <vehicle id="saida_ufal_to_inter2Destino.13" type="car" depart="1664.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="232.57" probability="1.00000000" edges="saidaufal E1 inter2Destino"/>
         </routeDistribution>
@@ -9123,11 +8993,6 @@
             <route cost="303.91" probability="1.00000000" edges="inter1Origem -E5 -E1 E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.27" type="car" depart="1728.00" departLane="best" departPos="last">
-        <routeDistribution last="0">
-            <route cost="74.99" probability="1.00000000" edges="inter1Origem -E5 inter2Destino"/>
-        </routeDistribution>
-    </vehicle>
     <vehicle id="saida_ufal_to_C.108" type="car" depart="1728.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="304.15" probability="1.00000000" edges="saidaufal E1 E5 cDestino"/>
@@ -9136,11 +9001,6 @@
     <vehicle id="saida_ufal_to_D.108" type="car" depart="1728.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="224.00" probability="1.00000000" edges="saidaufal E3 dDestino"/>
-        </routeDistribution>
-    </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.27" type="car" depart="1728.00" departLane="best" departPos="last">
-        <routeDistribution last="0">
-            <route cost="232.57" probability="1.00000000" edges="saidaufal E1 inter2Destino"/>
         </routeDistribution>
     </vehicle>
     <vehicle id="C_car.375" type="car" depart="1728.75" departLane="best" departPos="last">
@@ -9463,7 +9323,7 @@
             <route cost="303.91" probability="1.00000000" edges="inter1Origem -E5 -E1 E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.28" type="car" depart="1792.00" departLane="best" departPos="last">
+    <vehicle id="inter1Origem_to_inter2Destino.14" type="car" depart="1792.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="74.99" probability="1.00000000" edges="inter1Origem -E5 inter2Destino"/>
         </routeDistribution>
@@ -9478,7 +9338,7 @@
             <route cost="224.00" probability="1.00000000" edges="saidaufal E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.28" type="car" depart="1792.00" departLane="best" departPos="last">
+    <vehicle id="saida_ufal_to_inter2Destino.14" type="car" depart="1792.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="232.57" probability="1.00000000" edges="saidaufal E1 inter2Destino"/>
         </routeDistribution>
@@ -9783,11 +9643,6 @@
             <route cost="303.91" probability="1.00000000" edges="inter1Origem -E5 -E1 E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.29" type="car" depart="1856.00" departLane="best" departPos="last">
-        <routeDistribution last="0">
-            <route cost="74.99" probability="1.00000000" edges="inter1Origem -E5 inter2Destino"/>
-        </routeDistribution>
-    </vehicle>
     <vehicle id="saida_ufal_to_C.116" type="car" depart="1856.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="304.15" probability="1.00000000" edges="saidaufal E1 E5 cDestino"/>
@@ -9796,11 +9651,6 @@
     <vehicle id="saida_ufal_to_D.116" type="car" depart="1856.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="224.00" probability="1.00000000" edges="saidaufal E3 dDestino"/>
-        </routeDistribution>
-    </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.29" type="car" depart="1856.00" departLane="best" departPos="last">
-        <routeDistribution last="0">
-            <route cost="232.57" probability="1.00000000" edges="saidaufal E1 inter2Destino"/>
         </routeDistribution>
     </vehicle>
     <vehicle id="D_car.350" type="car" depart="1857.10" departLane="best" departPos="last">
@@ -10143,7 +9993,7 @@
             <route cost="303.91" probability="1.00000000" edges="inter1Origem -E5 -E1 E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.30" type="car" depart="1920.00" departLane="best" departPos="last">
+    <vehicle id="inter1Origem_to_inter2Destino.15" type="car" depart="1920.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="74.99" probability="1.00000000" edges="inter1Origem -E5 inter2Destino"/>
         </routeDistribution>
@@ -10158,7 +10008,7 @@
             <route cost="224.00" probability="1.00000000" edges="saidaufal E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.30" type="car" depart="1920.00" departLane="best" departPos="last">
+    <vehicle id="saida_ufal_to_inter2Destino.15" type="car" depart="1920.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="232.57" probability="1.00000000" edges="saidaufal E1 inter2Destino"/>
         </routeDistribution>
@@ -10453,11 +10303,6 @@
             <route cost="303.91" probability="1.00000000" edges="inter1Origem -E5 -E1 E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.31" type="car" depart="1984.00" departLane="best" departPos="last">
-        <routeDistribution last="0">
-            <route cost="74.99" probability="1.00000000" edges="inter1Origem -E5 inter2Destino"/>
-        </routeDistribution>
-    </vehicle>
     <vehicle id="saida_ufal_to_C.124" type="car" depart="1984.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="304.15" probability="1.00000000" edges="saidaufal E1 E5 cDestino"/>
@@ -10466,11 +10311,6 @@
     <vehicle id="saida_ufal_to_D.124" type="car" depart="1984.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="224.00" probability="1.00000000" edges="saidaufal E3 dDestino"/>
-        </routeDistribution>
-    </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.31" type="car" depart="1984.00" departLane="best" departPos="last">
-        <routeDistribution last="0">
-            <route cost="232.57" probability="1.00000000" edges="saidaufal E1 inter2Destino"/>
         </routeDistribution>
     </vehicle>
     <vehicle id="D_car.374" type="car" depart="1984.44" departLane="best" departPos="last">
@@ -10793,7 +10633,7 @@
             <route cost="303.91" probability="1.00000000" edges="inter1Origem -E5 -E1 E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.32" type="car" depart="2048.00" departLane="best" departPos="last">
+    <vehicle id="inter1Origem_to_inter2Destino.16" type="car" depart="2048.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="74.99" probability="1.00000000" edges="inter1Origem -E5 inter2Destino"/>
         </routeDistribution>
@@ -10808,7 +10648,7 @@
             <route cost="224.00" probability="1.00000000" edges="saidaufal E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.32" type="car" depart="2048.00" departLane="best" departPos="last">
+    <vehicle id="saida_ufal_to_inter2Destino.16" type="car" depart="2048.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="232.57" probability="1.00000000" edges="saidaufal E1 inter2Destino"/>
         </routeDistribution>
@@ -11133,11 +10973,6 @@
             <route cost="303.91" probability="1.00000000" edges="inter1Origem -E5 -E1 E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.33" type="car" depart="2112.00" departLane="best" departPos="last">
-        <routeDistribution last="0">
-            <route cost="74.99" probability="1.00000000" edges="inter1Origem -E5 inter2Destino"/>
-        </routeDistribution>
-    </vehicle>
     <vehicle id="saida_ufal_to_C.132" type="car" depart="2112.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="304.15" probability="1.00000000" edges="saidaufal E1 E5 cDestino"/>
@@ -11146,11 +10981,6 @@
     <vehicle id="saida_ufal_to_D.132" type="car" depart="2112.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="224.00" probability="1.00000000" edges="saidaufal E3 dDestino"/>
-        </routeDistribution>
-    </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.33" type="car" depart="2112.00" departLane="best" departPos="last">
-        <routeDistribution last="0">
-            <route cost="232.57" probability="1.00000000" edges="saidaufal E1 inter2Destino"/>
         </routeDistribution>
     </vehicle>
     <vehicle id="D_bus2.76" type="bus2" depart="2114.78" departLane="best" departPos="last">
@@ -11478,7 +11308,7 @@
             <route cost="303.91" probability="1.00000000" edges="inter1Origem -E5 -E1 E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.34" type="car" depart="2176.00" departLane="best" departPos="last">
+    <vehicle id="inter1Origem_to_inter2Destino.17" type="car" depart="2176.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="74.99" probability="1.00000000" edges="inter1Origem -E5 inter2Destino"/>
         </routeDistribution>
@@ -11493,7 +11323,7 @@
             <route cost="224.00" probability="1.00000000" edges="saidaufal E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.34" type="car" depart="2176.00" departLane="best" departPos="last">
+    <vehicle id="saida_ufal_to_inter2Destino.17" type="car" depart="2176.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="232.57" probability="1.00000000" edges="saidaufal E1 inter2Destino"/>
         </routeDistribution>
@@ -11813,11 +11643,6 @@
             <route cost="303.91" probability="1.00000000" edges="inter1Origem -E5 -E1 E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.35" type="car" depart="2240.00" departLane="best" departPos="last">
-        <routeDistribution last="0">
-            <route cost="74.99" probability="1.00000000" edges="inter1Origem -E5 inter2Destino"/>
-        </routeDistribution>
-    </vehicle>
     <vehicle id="saida_ufal_to_C.140" type="car" depart="2240.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="304.15" probability="1.00000000" edges="saidaufal E1 E5 cDestino"/>
@@ -11826,11 +11651,6 @@
     <vehicle id="saida_ufal_to_D.140" type="car" depart="2240.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="224.00" probability="1.00000000" edges="saidaufal E3 dDestino"/>
-        </routeDistribution>
-    </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.35" type="car" depart="2240.00" departLane="best" departPos="last">
-        <routeDistribution last="0">
-            <route cost="232.57" probability="1.00000000" edges="saidaufal E1 inter2Destino"/>
         </routeDistribution>
     </vehicle>
     <vehicle id="C_car.486" type="car" depart="2240.46" departLane="best" departPos="last">
@@ -12143,7 +11963,7 @@
             <route cost="303.91" probability="1.00000000" edges="inter1Origem -E5 -E1 E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.36" type="car" depart="2304.00" departLane="best" departPos="last">
+    <vehicle id="inter1Origem_to_inter2Destino.18" type="car" depart="2304.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="74.99" probability="1.00000000" edges="inter1Origem -E5 inter2Destino"/>
         </routeDistribution>
@@ -12158,7 +11978,7 @@
             <route cost="224.00" probability="1.00000000" edges="saidaufal E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.36" type="car" depart="2304.00" departLane="best" departPos="last">
+    <vehicle id="saida_ufal_to_inter2Destino.18" type="car" depart="2304.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="232.57" probability="1.00000000" edges="saidaufal E1 inter2Destino"/>
         </routeDistribution>
@@ -12463,11 +12283,6 @@
             <route cost="303.91" probability="1.00000000" edges="inter1Origem -E5 -E1 E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.37" type="car" depart="2368.00" departLane="best" departPos="last">
-        <routeDistribution last="0">
-            <route cost="74.99" probability="1.00000000" edges="inter1Origem -E5 inter2Destino"/>
-        </routeDistribution>
-    </vehicle>
     <vehicle id="saida_ufal_to_C.148" type="car" depart="2368.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="304.15" probability="1.00000000" edges="saidaufal E1 E5 cDestino"/>
@@ -12476,11 +12291,6 @@
     <vehicle id="saida_ufal_to_D.148" type="car" depart="2368.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="224.00" probability="1.00000000" edges="saidaufal E3 dDestino"/>
-        </routeDistribution>
-    </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.37" type="car" depart="2368.00" departLane="best" departPos="last">
-        <routeDistribution last="0">
-            <route cost="232.57" probability="1.00000000" edges="saidaufal E1 inter2Destino"/>
         </routeDistribution>
     </vehicle>
     <vehicle id="C_car.514" type="car" depart="2369.54" departLane="best" departPos="last">
@@ -12813,7 +12623,7 @@
             <route cost="303.91" probability="1.00000000" edges="inter1Origem -E5 -E1 E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.38" type="car" depart="2432.00" departLane="best" departPos="last">
+    <vehicle id="inter1Origem_to_inter2Destino.19" type="car" depart="2432.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="74.99" probability="1.00000000" edges="inter1Origem -E5 inter2Destino"/>
         </routeDistribution>
@@ -12828,7 +12638,7 @@
             <route cost="224.00" probability="1.00000000" edges="saidaufal E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.38" type="car" depart="2432.00" departLane="best" departPos="last">
+    <vehicle id="saida_ufal_to_inter2Destino.19" type="car" depart="2432.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="232.57" probability="1.00000000" edges="saidaufal E1 inter2Destino"/>
         </routeDistribution>
@@ -13128,11 +12938,6 @@
             <route cost="303.91" probability="1.00000000" edges="inter1Origem -E5 -E1 E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.39" type="car" depart="2496.00" departLane="best" departPos="last">
-        <routeDistribution last="0">
-            <route cost="74.99" probability="1.00000000" edges="inter1Origem -E5 inter2Destino"/>
-        </routeDistribution>
-    </vehicle>
     <vehicle id="saida_ufal_to_C.156" type="car" depart="2496.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="304.15" probability="1.00000000" edges="saidaufal E1 E5 cDestino"/>
@@ -13141,11 +12946,6 @@
     <vehicle id="saida_ufal_to_D.156" type="car" depart="2496.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="224.00" probability="1.00000000" edges="saidaufal E3 dDestino"/>
-        </routeDistribution>
-    </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.39" type="car" depart="2496.00" departLane="best" departPos="last">
-        <routeDistribution last="0">
-            <route cost="232.57" probability="1.00000000" edges="saidaufal E1 inter2Destino"/>
         </routeDistribution>
     </vehicle>
     <vehicle id="D_motorcycle.103" type="motorcycle" depart="2496.93" departLane="best" departPos="last">
@@ -13483,7 +13283,7 @@
             <route cost="303.91" probability="1.00000000" edges="inter1Origem -E5 -E1 E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.40" type="car" depart="2560.00" departLane="best" departPos="last">
+    <vehicle id="inter1Origem_to_inter2Destino.20" type="car" depart="2560.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="74.99" probability="1.00000000" edges="inter1Origem -E5 inter2Destino"/>
         </routeDistribution>
@@ -13498,7 +13298,7 @@
             <route cost="224.00" probability="1.00000000" edges="saidaufal E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.40" type="car" depart="2560.00" departLane="best" departPos="last">
+    <vehicle id="saida_ufal_to_inter2Destino.20" type="car" depart="2560.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="232.57" probability="1.00000000" edges="saidaufal E1 inter2Destino"/>
         </routeDistribution>
@@ -13808,11 +13608,6 @@
             <route cost="303.91" probability="1.00000000" edges="inter1Origem -E5 -E1 E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.41" type="car" depart="2624.00" departLane="best" departPos="last">
-        <routeDistribution last="0">
-            <route cost="74.99" probability="1.00000000" edges="inter1Origem -E5 inter2Destino"/>
-        </routeDistribution>
-    </vehicle>
     <vehicle id="saida_ufal_to_C.164" type="car" depart="2624.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="304.15" probability="1.00000000" edges="saidaufal E1 E5 cDestino"/>
@@ -13821,11 +13616,6 @@
     <vehicle id="saida_ufal_to_D.164" type="car" depart="2624.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="224.00" probability="1.00000000" edges="saidaufal E3 dDestino"/>
-        </routeDistribution>
-    </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.41" type="car" depart="2624.00" departLane="best" departPos="last">
-        <routeDistribution last="0">
-            <route cost="232.57" probability="1.00000000" edges="saidaufal E1 inter2Destino"/>
         </routeDistribution>
     </vehicle>
     <vehicle id="C_motorcycle.494" type="motorcycle" depart="2625.61" departLane="best" departPos="last">
@@ -14143,7 +13933,7 @@
             <route cost="303.91" probability="1.00000000" edges="inter1Origem -E5 -E1 E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.42" type="car" depart="2688.00" departLane="best" departPos="last">
+    <vehicle id="inter1Origem_to_inter2Destino.21" type="car" depart="2688.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="74.99" probability="1.00000000" edges="inter1Origem -E5 inter2Destino"/>
         </routeDistribution>
@@ -14158,7 +13948,7 @@
             <route cost="224.00" probability="1.00000000" edges="saidaufal E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.42" type="car" depart="2688.00" departLane="best" departPos="last">
+    <vehicle id="saida_ufal_to_inter2Destino.21" type="car" depart="2688.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="232.57" probability="1.00000000" edges="saidaufal E1 inter2Destino"/>
         </routeDistribution>
@@ -14468,11 +14258,6 @@
             <route cost="303.91" probability="1.00000000" edges="inter1Origem -E5 -E1 E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.43" type="car" depart="2752.00" departLane="best" departPos="last">
-        <routeDistribution last="0">
-            <route cost="74.99" probability="1.00000000" edges="inter1Origem -E5 inter2Destino"/>
-        </routeDistribution>
-    </vehicle>
     <vehicle id="saida_ufal_to_C.172" type="car" depart="2752.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="304.15" probability="1.00000000" edges="saidaufal E1 E5 cDestino"/>
@@ -14481,11 +14266,6 @@
     <vehicle id="saida_ufal_to_D.172" type="car" depart="2752.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="224.00" probability="1.00000000" edges="saidaufal E3 dDestino"/>
-        </routeDistribution>
-    </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.43" type="car" depart="2752.00" departLane="best" departPos="last">
-        <routeDistribution last="0">
-            <route cost="232.57" probability="1.00000000" edges="saidaufal E1 inter2Destino"/>
         </routeDistribution>
     </vehicle>
     <vehicle id="C_car.597" type="car" depart="2752.17" departLane="best" departPos="last">
@@ -14808,7 +14588,7 @@
             <route cost="303.91" probability="1.00000000" edges="inter1Origem -E5 -E1 E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.44" type="car" depart="2816.00" departLane="best" departPos="last">
+    <vehicle id="inter1Origem_to_inter2Destino.22" type="car" depart="2816.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="74.99" probability="1.00000000" edges="inter1Origem -E5 inter2Destino"/>
         </routeDistribution>
@@ -14823,7 +14603,7 @@
             <route cost="224.00" probability="1.00000000" edges="saidaufal E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.44" type="car" depart="2816.00" departLane="best" departPos="last">
+    <vehicle id="saida_ufal_to_inter2Destino.22" type="car" depart="2816.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="232.57" probability="1.00000000" edges="saidaufal E1 inter2Destino"/>
         </routeDistribution>
@@ -15143,11 +14923,6 @@
             <route cost="303.91" probability="1.00000000" edges="inter1Origem -E5 -E1 E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.45" type="car" depart="2880.00" departLane="best" departPos="last">
-        <routeDistribution last="0">
-            <route cost="74.99" probability="1.00000000" edges="inter1Origem -E5 inter2Destino"/>
-        </routeDistribution>
-    </vehicle>
     <vehicle id="saida_ufal_to_C.180" type="car" depart="2880.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="304.15" probability="1.00000000" edges="saidaufal E1 E5 cDestino"/>
@@ -15156,11 +14931,6 @@
     <vehicle id="saida_ufal_to_D.180" type="car" depart="2880.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="224.00" probability="1.00000000" edges="saidaufal E3 dDestino"/>
-        </routeDistribution>
-    </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.45" type="car" depart="2880.00" departLane="best" departPos="last">
-        <routeDistribution last="0">
-            <route cost="232.57" probability="1.00000000" edges="saidaufal E1 inter2Destino"/>
         </routeDistribution>
     </vehicle>
     <vehicle id="C_motorcycle.542" type="motorcycle" depart="2880.73" departLane="best" departPos="last">
@@ -15473,7 +15243,7 @@
             <route cost="303.91" probability="1.00000000" edges="inter1Origem -E5 -E1 E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.46" type="car" depart="2944.00" departLane="best" departPos="last">
+    <vehicle id="inter1Origem_to_inter2Destino.23" type="car" depart="2944.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="74.99" probability="1.00000000" edges="inter1Origem -E5 inter2Destino"/>
         </routeDistribution>
@@ -15488,7 +15258,7 @@
             <route cost="224.00" probability="1.00000000" edges="saidaufal E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.46" type="car" depart="2944.00" departLane="best" departPos="last">
+    <vehicle id="saida_ufal_to_inter2Destino.23" type="car" depart="2944.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="232.57" probability="1.00000000" edges="saidaufal E1 inter2Destino"/>
         </routeDistribution>
@@ -15798,11 +15568,6 @@
             <route cost="303.91" probability="1.00000000" edges="inter1Origem -E5 -E1 E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.47" type="car" depart="3008.00" departLane="best" departPos="last">
-        <routeDistribution last="0">
-            <route cost="74.99" probability="1.00000000" edges="inter1Origem -E5 inter2Destino"/>
-        </routeDistribution>
-    </vehicle>
     <vehicle id="saida_ufal_to_C.188" type="car" depart="3008.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="304.15" probability="1.00000000" edges="saidaufal E1 E5 cDestino"/>
@@ -15811,11 +15576,6 @@
     <vehicle id="saida_ufal_to_D.188" type="car" depart="3008.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="224.00" probability="1.00000000" edges="saidaufal E3 dDestino"/>
-        </routeDistribution>
-    </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.47" type="car" depart="3008.00" departLane="best" departPos="last">
-        <routeDistribution last="0">
-            <route cost="232.57" probability="1.00000000" edges="saidaufal E1 inter2Destino"/>
         </routeDistribution>
     </vehicle>
     <vehicle id="C_motorcycle.566" type="motorcycle" depart="3008.29" departLane="best" departPos="last">
@@ -16138,7 +15898,7 @@
             <route cost="303.91" probability="1.00000000" edges="inter1Origem -E5 -E1 E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.48" type="car" depart="3072.00" departLane="best" departPos="last">
+    <vehicle id="inter1Origem_to_inter2Destino.24" type="car" depart="3072.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="74.99" probability="1.00000000" edges="inter1Origem -E5 inter2Destino"/>
         </routeDistribution>
@@ -16153,7 +15913,7 @@
             <route cost="224.00" probability="1.00000000" edges="saidaufal E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.48" type="car" depart="3072.00" departLane="best" departPos="last">
+    <vehicle id="saida_ufal_to_inter2Destino.24" type="car" depart="3072.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="232.57" probability="1.00000000" edges="saidaufal E1 inter2Destino"/>
         </routeDistribution>
@@ -16463,11 +16223,6 @@
             <route cost="303.91" probability="1.00000000" edges="inter1Origem -E5 -E1 E3 dDestino"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.49" type="car" depart="3136.00" departLane="best" departPos="last">
-        <routeDistribution last="0">
-            <route cost="74.99" probability="1.00000000" edges="inter1Origem -E5 inter2Destino"/>
-        </routeDistribution>
-    </vehicle>
     <vehicle id="saida_ufal_to_C.196" type="car" depart="3136.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="304.15" probability="1.00000000" edges="saidaufal E1 E5 cDestino"/>
@@ -16476,11 +16231,6 @@
     <vehicle id="saida_ufal_to_D.196" type="car" depart="3136.00" departLane="best" departPos="last">
         <routeDistribution last="0">
             <route cost="224.00" probability="1.00000000" edges="saidaufal E3 dDestino"/>
-        </routeDistribution>
-    </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.49" type="car" depart="3136.00" departLane="best" departPos="last">
-        <routeDistribution last="0">
-            <route cost="232.57" probability="1.00000000" edges="saidaufal E1 inter2Destino"/>
         </routeDistribution>
     </vehicle>
     <vehicle id="C_car.681" type="car" depart="3139.41" departLane="best" departPos="last">

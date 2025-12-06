@@ -56,7 +56,7 @@
         from="saidaufal" to="dDestino" />
 
     <flow id="saida_ufal_to_inter2Destino" type="car" begin="0" end="3200" departLane="best" departPos="last"
-        number="50" from="saidaufal" to="inter2Destino" />
+        number="25" from="saidaufal" to="inter2Destino" />
 
     <!-- Inter1 -->
     <flow id="inter1Origem_to_cDestino" type="car" begin="0" end="3200" departLane="best" departPos="last" number="100"
@@ -65,6 +65,6 @@
         from="inter1Origem" to="dDestino" />
 
     <flow id="inter1Origem_to_inter2Destino" type="car" begin="0" end="3200" departLane="best" departPos="last"
-        number="50" from="inter1Origem" to="inter2Destino" />
+        number="25" from="inter1Origem" to="inter2Destino" />
 
 </trips>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2025-11-27 13:29:05 by Eclipse SUMO duarouter Version 1.22.0
+<!-- generated on 2025-12-06 00:23:06 by Eclipse SUMO duarouter Version 1.22.0
 <duarouterConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
 
     <input>
@@ -283,17 +283,11 @@
     <vehicle id="inter1Origem_to_dDestino.2" type="car" depart="64.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 -E1 E3 dDestino"/>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.1" type="car" depart="64.00" departLane="best" departPos="last">
-        <route edges="inter1Origem -E5 inter2Destino"/>
-    </vehicle>
     <vehicle id="saida_ufal_to_C.4" type="car" depart="64.00" departLane="best" departPos="last">
         <route edges="saidaufal E1 E5 cDestino"/>
     </vehicle>
     <vehicle id="saida_ufal_to_D.4" type="car" depart="64.00" departLane="best" departPos="last">
         <route edges="saidaufal E3 dDestino"/>
-    </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.1" type="car" depart="64.00" departLane="best" departPos="last">
-        <route edges="saidaufal E1 inter2Destino"/>
     </vehicle>
     <vehicle id="C_car.14" type="car" depart="64.54" departLane="best" departPos="last">
         <route edges="cOrigem E2 E4 E1 E5 cDestino"/>
@@ -478,7 +472,7 @@
     <vehicle id="inter1Origem_to_dDestino.4" type="car" depart="128.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 -E1 E3 dDestino"/>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.2" type="car" depart="128.00" departLane="best" departPos="last">
+    <vehicle id="inter1Origem_to_inter2Destino.1" type="car" depart="128.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 inter2Destino"/>
     </vehicle>
     <vehicle id="saida_ufal_to_C.8" type="car" depart="128.00" departLane="best" departPos="last">
@@ -487,7 +481,7 @@
     <vehicle id="saida_ufal_to_D.8" type="car" depart="128.00" departLane="best" departPos="last">
         <route edges="saidaufal E3 dDestino"/>
     </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.2" type="car" depart="128.00" departLane="best" departPos="last">
+    <vehicle id="saida_ufal_to_inter2Destino.1" type="car" depart="128.00" departLane="best" departPos="last">
         <route edges="saidaufal E1 inter2Destino"/>
     </vehicle>
     <vehicle id="C_car.28" type="car" depart="129.08" departLane="best" departPos="last">
@@ -676,17 +670,11 @@
     <vehicle id="inter1Origem_to_dDestino.6" type="car" depart="192.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 -E1 E3 dDestino"/>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.3" type="car" depart="192.00" departLane="best" departPos="last">
-        <route edges="inter1Origem -E5 inter2Destino"/>
-    </vehicle>
     <vehicle id="saida_ufal_to_C.12" type="car" depart="192.00" departLane="best" departPos="last">
         <route edges="saidaufal E1 E5 cDestino"/>
     </vehicle>
     <vehicle id="saida_ufal_to_D.12" type="car" depart="192.00" departLane="best" departPos="last">
         <route edges="saidaufal E3 dDestino"/>
-    </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.3" type="car" depart="192.00" departLane="best" departPos="last">
-        <route edges="saidaufal E1 inter2Destino"/>
     </vehicle>
     <vehicle id="C_car.42" type="car" depart="193.62" departLane="best" departPos="last">
         <route edges="cOrigem E2 E4 E1 E5 cDestino"/>
@@ -877,7 +865,7 @@
     <vehicle id="inter1Origem_to_dDestino.8" type="car" depart="256.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 -E1 E3 dDestino"/>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.4" type="car" depart="256.00" departLane="best" departPos="last">
+    <vehicle id="inter1Origem_to_inter2Destino.2" type="car" depart="256.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 inter2Destino"/>
     </vehicle>
     <vehicle id="saida_ufal_to_C.16" type="car" depart="256.00" departLane="best" departPos="last">
@@ -886,7 +874,7 @@
     <vehicle id="saida_ufal_to_D.16" type="car" depart="256.00" departLane="best" departPos="last">
         <route edges="saidaufal E3 dDestino"/>
     </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.4" type="car" depart="256.00" departLane="best" departPos="last">
+    <vehicle id="saida_ufal_to_inter2Destino.2" type="car" depart="256.00" departLane="best" departPos="last">
         <route edges="saidaufal E1 inter2Destino"/>
     </vehicle>
     <vehicle id="C_car.56" type="car" depart="258.16" departLane="best" departPos="last">
@@ -1081,17 +1069,11 @@
     <vehicle id="inter1Origem_to_dDestino.10" type="car" depart="320.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 -E1 E3 dDestino"/>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.5" type="car" depart="320.00" departLane="best" departPos="last">
-        <route edges="inter1Origem -E5 inter2Destino"/>
-    </vehicle>
     <vehicle id="saida_ufal_to_C.20" type="car" depart="320.00" departLane="best" departPos="last">
         <route edges="saidaufal E1 E5 cDestino"/>
     </vehicle>
     <vehicle id="saida_ufal_to_D.20" type="car" depart="320.00" departLane="best" departPos="last">
         <route edges="saidaufal E3 dDestino"/>
-    </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.5" type="car" depart="320.00" departLane="best" departPos="last">
-        <route edges="saidaufal E1 inter2Destino"/>
     </vehicle>
     <vehicle id="C_car.70" type="car" depart="322.70" departLane="best" departPos="last">
         <route edges="cOrigem E2 E4 E1 E5 cDestino"/>
@@ -1276,7 +1258,7 @@
     <vehicle id="inter1Origem_to_dDestino.12" type="car" depart="384.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 -E1 E3 dDestino"/>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.6" type="car" depart="384.00" departLane="best" departPos="last">
+    <vehicle id="inter1Origem_to_inter2Destino.3" type="car" depart="384.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 inter2Destino"/>
     </vehicle>
     <vehicle id="saida_ufal_to_C.24" type="car" depart="384.00" departLane="best" departPos="last">
@@ -1285,7 +1267,7 @@
     <vehicle id="saida_ufal_to_D.24" type="car" depart="384.00" departLane="best" departPos="last">
         <route edges="saidaufal E3 dDestino"/>
     </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.6" type="car" depart="384.00" departLane="best" departPos="last">
+    <vehicle id="saida_ufal_to_inter2Destino.3" type="car" depart="384.00" departLane="best" departPos="last">
         <route edges="saidaufal E1 inter2Destino"/>
     </vehicle>
     <vehicle id="C_car.84" type="car" depart="387.24" departLane="best" departPos="last">
@@ -1474,17 +1456,11 @@
     <vehicle id="inter1Origem_to_dDestino.14" type="car" depart="448.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 -E1 E3 dDestino"/>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.7" type="car" depart="448.00" departLane="best" departPos="last">
-        <route edges="inter1Origem -E5 inter2Destino"/>
-    </vehicle>
     <vehicle id="saida_ufal_to_C.28" type="car" depart="448.00" departLane="best" departPos="last">
         <route edges="saidaufal E1 E5 cDestino"/>
     </vehicle>
     <vehicle id="saida_ufal_to_D.28" type="car" depart="448.00" departLane="best" departPos="last">
         <route edges="saidaufal E3 dDestino"/>
-    </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.7" type="car" depart="448.00" departLane="best" departPos="last">
-        <route edges="saidaufal E1 inter2Destino"/>
     </vehicle>
     <vehicle id="D_car.85" type="car" depart="451.01" departLane="best" departPos="last">
         <route edges="dOrigem -E5 -E1 E3 dDestino"/>
@@ -1678,7 +1654,7 @@
     <vehicle id="inter1Origem_to_dDestino.16" type="car" depart="512.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 -E1 E3 dDestino"/>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.8" type="car" depart="512.00" departLane="best" departPos="last">
+    <vehicle id="inter1Origem_to_inter2Destino.4" type="car" depart="512.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 inter2Destino"/>
     </vehicle>
     <vehicle id="saida_ufal_to_C.32" type="car" depart="512.00" departLane="best" departPos="last">
@@ -1687,7 +1663,7 @@
     <vehicle id="saida_ufal_to_D.32" type="car" depart="512.00" departLane="best" departPos="last">
         <route edges="saidaufal E3 dDestino"/>
     </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.8" type="car" depart="512.00" departLane="best" departPos="last">
+    <vehicle id="saida_ufal_to_inter2Destino.4" type="car" depart="512.00" departLane="best" departPos="last">
         <route edges="saidaufal E1 inter2Destino"/>
     </vehicle>
     <vehicle id="D_car.97" type="car" depart="514.68" departLane="best" departPos="last">
@@ -1870,17 +1846,11 @@
     <vehicle id="inter1Origem_to_dDestino.18" type="car" depart="576.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 -E1 E3 dDestino"/>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.9" type="car" depart="576.00" departLane="best" departPos="last">
-        <route edges="inter1Origem -E5 inter2Destino"/>
-    </vehicle>
     <vehicle id="saida_ufal_to_C.36" type="car" depart="576.00" departLane="best" departPos="last">
         <route edges="saidaufal E1 E5 cDestino"/>
     </vehicle>
     <vehicle id="saida_ufal_to_D.36" type="car" depart="576.00" departLane="best" departPos="last">
         <route edges="saidaufal E3 dDestino"/>
-    </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.9" type="car" depart="576.00" departLane="best" departPos="last">
-        <route edges="saidaufal E1 inter2Destino"/>
     </vehicle>
     <vehicle id="C_car.125" type="car" depart="576.25" departLane="best" departPos="last">
         <route edges="cOrigem E2 E4 E1 E5 cDestino"/>
@@ -2089,7 +2059,7 @@
     <vehicle id="inter1Origem_to_dDestino.20" type="car" depart="640.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 -E1 E3 dDestino"/>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.10" type="car" depart="640.00" departLane="best" departPos="last">
+    <vehicle id="inter1Origem_to_inter2Destino.5" type="car" depart="640.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 inter2Destino"/>
     </vehicle>
     <vehicle id="saida_ufal_to_C.40" type="car" depart="640.00" departLane="best" departPos="last">
@@ -2098,7 +2068,7 @@
     <vehicle id="saida_ufal_to_D.40" type="car" depart="640.00" departLane="best" departPos="last">
         <route edges="saidaufal E3 dDestino"/>
     </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.10" type="car" depart="640.00" departLane="best" departPos="last">
+    <vehicle id="saida_ufal_to_inter2Destino.5" type="car" depart="640.00" departLane="best" departPos="last">
         <route edges="saidaufal E1 inter2Destino"/>
     </vehicle>
     <vehicle id="C_car.139" type="car" depart="640.79" departLane="best" departPos="last">
@@ -2278,17 +2248,11 @@
     <vehicle id="inter1Origem_to_dDestino.22" type="car" depart="704.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 -E1 E3 dDestino"/>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.11" type="car" depart="704.00" departLane="best" departPos="last">
-        <route edges="inter1Origem -E5 inter2Destino"/>
-    </vehicle>
     <vehicle id="saida_ufal_to_C.44" type="car" depart="704.00" departLane="best" departPos="last">
         <route edges="saidaufal E1 E5 cDestino"/>
     </vehicle>
     <vehicle id="saida_ufal_to_D.44" type="car" depart="704.00" departLane="best" departPos="last">
         <route edges="saidaufal E3 dDestino"/>
-    </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.11" type="car" depart="704.00" departLane="best" departPos="last">
-        <route edges="saidaufal E1 inter2Destino"/>
     </vehicle>
     <vehicle id="C_car.153" type="car" depart="705.33" departLane="best" departPos="last">
         <route edges="cOrigem E2 E4 E1 E5 cDestino"/>
@@ -2473,7 +2437,7 @@
     <vehicle id="inter1Origem_to_dDestino.24" type="car" depart="768.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 -E1 E3 dDestino"/>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.12" type="car" depart="768.00" departLane="best" departPos="last">
+    <vehicle id="inter1Origem_to_inter2Destino.6" type="car" depart="768.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 inter2Destino"/>
     </vehicle>
     <vehicle id="saida_ufal_to_C.48" type="car" depart="768.00" departLane="best" departPos="last">
@@ -2482,7 +2446,7 @@
     <vehicle id="saida_ufal_to_D.48" type="car" depart="768.00" departLane="best" departPos="last">
         <route edges="saidaufal E3 dDestino"/>
     </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.12" type="car" depart="768.00" departLane="best" departPos="last">
+    <vehicle id="saida_ufal_to_inter2Destino.6" type="car" depart="768.00" departLane="best" departPos="last">
         <route edges="saidaufal E1 inter2Destino"/>
     </vehicle>
     <vehicle id="D_car.145" type="car" depart="769.37" departLane="best" departPos="last">
@@ -2677,17 +2641,11 @@
     <vehicle id="inter1Origem_to_dDestino.26" type="car" depart="832.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 -E1 E3 dDestino"/>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.13" type="car" depart="832.00" departLane="best" departPos="last">
-        <route edges="inter1Origem -E5 inter2Destino"/>
-    </vehicle>
     <vehicle id="saida_ufal_to_C.52" type="car" depart="832.00" departLane="best" departPos="last">
         <route edges="saidaufal E1 E5 cDestino"/>
     </vehicle>
     <vehicle id="saida_ufal_to_D.52" type="car" depart="832.00" departLane="best" departPos="last">
         <route edges="saidaufal E3 dDestino"/>
-    </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.13" type="car" depart="832.00" departLane="best" departPos="last">
-        <route edges="saidaufal E1 inter2Destino"/>
     </vehicle>
     <vehicle id="D_car.157" type="car" depart="833.04" departLane="best" departPos="last">
         <route edges="dOrigem -E5 -E1 E3 dDestino"/>
@@ -2875,7 +2833,7 @@
     <vehicle id="inter1Origem_to_dDestino.28" type="car" depart="896.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 -E1 E3 dDestino"/>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.14" type="car" depart="896.00" departLane="best" departPos="last">
+    <vehicle id="inter1Origem_to_inter2Destino.7" type="car" depart="896.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 inter2Destino"/>
     </vehicle>
     <vehicle id="saida_ufal_to_C.56" type="car" depart="896.00" departLane="best" departPos="last">
@@ -2884,7 +2842,7 @@
     <vehicle id="saida_ufal_to_D.56" type="car" depart="896.00" departLane="best" departPos="last">
         <route edges="saidaufal E3 dDestino"/>
     </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.14" type="car" depart="896.00" departLane="best" departPos="last">
+    <vehicle id="saida_ufal_to_inter2Destino.7" type="car" depart="896.00" departLane="best" departPos="last">
         <route edges="saidaufal E1 inter2Destino"/>
     </vehicle>
     <vehicle id="D_car.169" type="car" depart="896.71" departLane="best" departPos="last">
@@ -3079,17 +3037,11 @@
     <vehicle id="inter1Origem_to_dDestino.30" type="car" depart="960.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 -E1 E3 dDestino"/>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.15" type="car" depart="960.00" departLane="best" departPos="last">
-        <route edges="inter1Origem -E5 inter2Destino"/>
-    </vehicle>
     <vehicle id="saida_ufal_to_C.60" type="car" depart="960.00" departLane="best" departPos="last">
         <route edges="saidaufal E1 E5 cDestino"/>
     </vehicle>
     <vehicle id="saida_ufal_to_D.60" type="car" depart="960.00" departLane="best" departPos="last">
         <route edges="saidaufal E3 dDestino"/>
-    </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.15" type="car" depart="960.00" departLane="best" departPos="last">
-        <route edges="saidaufal E1 inter2Destino"/>
     </vehicle>
     <vehicle id="D_car.181" type="car" depart="960.39" departLane="best" departPos="last">
         <route edges="dOrigem -E5 -E1 E3 dDestino"/>
@@ -3277,7 +3229,7 @@
     <vehicle id="inter1Origem_to_dDestino.32" type="car" depart="1024.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 -E1 E3 dDestino"/>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.16" type="car" depart="1024.00" departLane="best" departPos="last">
+    <vehicle id="inter1Origem_to_inter2Destino.8" type="car" depart="1024.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 inter2Destino"/>
     </vehicle>
     <vehicle id="saida_ufal_to_C.64" type="car" depart="1024.00" departLane="best" departPos="last">
@@ -3286,7 +3238,7 @@
     <vehicle id="saida_ufal_to_D.64" type="car" depart="1024.00" departLane="best" departPos="last">
         <route edges="saidaufal E3 dDestino"/>
     </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.16" type="car" depart="1024.00" departLane="best" departPos="last">
+    <vehicle id="saida_ufal_to_inter2Destino.8" type="car" depart="1024.00" departLane="best" departPos="last">
         <route edges="saidaufal E1 inter2Destino"/>
     </vehicle>
     <vehicle id="D_car.193" type="car" depart="1024.06" departLane="best" departPos="last">
@@ -3481,17 +3433,11 @@
     <vehicle id="inter1Origem_to_dDestino.34" type="car" depart="1088.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 -E1 E3 dDestino"/>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.17" type="car" depart="1088.00" departLane="best" departPos="last">
-        <route edges="inter1Origem -E5 inter2Destino"/>
-    </vehicle>
     <vehicle id="saida_ufal_to_C.68" type="car" depart="1088.00" departLane="best" departPos="last">
         <route edges="saidaufal E1 E5 cDestino"/>
     </vehicle>
     <vehicle id="saida_ufal_to_D.68" type="car" depart="1088.00" departLane="best" departPos="last">
         <route edges="saidaufal E3 dDestino"/>
-    </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.17" type="car" depart="1088.00" departLane="best" departPos="last">
-        <route edges="saidaufal E1 inter2Destino"/>
     </vehicle>
     <vehicle id="C_motorcycle.205" type="motorcycle" depart="1089.58" departLane="best" departPos="last">
         <route edges="cOrigem E2 E4 E1 E5 cDestino"/>
@@ -3685,7 +3631,7 @@
     <vehicle id="inter1Origem_to_dDestino.36" type="car" depart="1152.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 -E1 E3 dDestino"/>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.18" type="car" depart="1152.00" departLane="best" departPos="last">
+    <vehicle id="inter1Origem_to_inter2Destino.9" type="car" depart="1152.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 inter2Destino"/>
     </vehicle>
     <vehicle id="saida_ufal_to_C.72" type="car" depart="1152.00" departLane="best" departPos="last">
@@ -3694,7 +3640,7 @@
     <vehicle id="saida_ufal_to_D.72" type="car" depart="1152.00" departLane="best" departPos="last">
         <route edges="saidaufal E3 dDestino"/>
     </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.18" type="car" depart="1152.00" departLane="best" departPos="last">
+    <vehicle id="saida_ufal_to_inter2Destino.9" type="car" depart="1152.00" departLane="best" departPos="last">
         <route edges="saidaufal E1 inter2Destino"/>
     </vehicle>
     <vehicle id="C_car.250" type="car" depart="1152.50" departLane="best" departPos="last">
@@ -3883,17 +3829,11 @@
     <vehicle id="inter1Origem_to_dDestino.38" type="car" depart="1216.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 -E1 E3 dDestino"/>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.19" type="car" depart="1216.00" departLane="best" departPos="last">
-        <route edges="inter1Origem -E5 inter2Destino"/>
-    </vehicle>
     <vehicle id="saida_ufal_to_C.76" type="car" depart="1216.00" departLane="best" departPos="last">
         <route edges="saidaufal E1 E5 cDestino"/>
     </vehicle>
     <vehicle id="saida_ufal_to_D.76" type="car" depart="1216.00" departLane="best" departPos="last">
         <route edges="saidaufal E3 dDestino"/>
-    </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.19" type="car" depart="1216.00" departLane="best" departPos="last">
-        <route edges="saidaufal E1 inter2Destino"/>
     </vehicle>
     <vehicle id="C_car.264" type="car" depart="1217.04" departLane="best" departPos="last">
         <route edges="cOrigem E2 E4 E1 E5 cDestino"/>
@@ -4093,7 +4033,7 @@
     <vehicle id="inter1Origem_to_dDestino.40" type="car" depart="1280.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 -E1 E3 dDestino"/>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.20" type="car" depart="1280.00" departLane="best" departPos="last">
+    <vehicle id="inter1Origem_to_inter2Destino.10" type="car" depart="1280.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 inter2Destino"/>
     </vehicle>
     <vehicle id="saida_ufal_to_C.80" type="car" depart="1280.00" departLane="best" departPos="last">
@@ -4102,7 +4042,7 @@
     <vehicle id="saida_ufal_to_D.80" type="car" depart="1280.00" departLane="best" departPos="last">
         <route edges="saidaufal E3 dDestino"/>
     </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.20" type="car" depart="1280.00" departLane="best" departPos="last">
+    <vehicle id="saida_ufal_to_inter2Destino.10" type="car" depart="1280.00" departLane="best" departPos="last">
         <route edges="saidaufal E1 inter2Destino"/>
     </vehicle>
     <vehicle id="C_motorcycle.241" type="motorcycle" depart="1280.92" departLane="best" departPos="last">
@@ -4285,17 +4225,11 @@
     <vehicle id="inter1Origem_to_dDestino.42" type="car" depart="1344.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 -E1 E3 dDestino"/>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.21" type="car" depart="1344.00" departLane="best" departPos="last">
-        <route edges="inter1Origem -E5 inter2Destino"/>
-    </vehicle>
     <vehicle id="saida_ufal_to_C.84" type="car" depart="1344.00" departLane="best" departPos="last">
         <route edges="saidaufal E1 E5 cDestino"/>
     </vehicle>
     <vehicle id="saida_ufal_to_D.84" type="car" depart="1344.00" departLane="best" departPos="last">
         <route edges="saidaufal E3 dDestino"/>
-    </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.21" type="car" depart="1344.00" departLane="best" departPos="last">
-        <route edges="saidaufal E1 inter2Destino"/>
     </vehicle>
     <vehicle id="C_motorcycle.253" type="motorcycle" depart="1344.70" departLane="best" departPos="last">
         <route edges="cOrigem E2 E4 E1 E5 cDestino"/>
@@ -4483,7 +4417,7 @@
     <vehicle id="inter1Origem_to_dDestino.44" type="car" depart="1408.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 -E1 E3 dDestino"/>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.22" type="car" depart="1408.00" departLane="best" departPos="last">
+    <vehicle id="inter1Origem_to_inter2Destino.11" type="car" depart="1408.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 inter2Destino"/>
     </vehicle>
     <vehicle id="saida_ufal_to_C.88" type="car" depart="1408.00" departLane="best" departPos="last">
@@ -4492,7 +4426,7 @@
     <vehicle id="saida_ufal_to_D.88" type="car" depart="1408.00" departLane="best" departPos="last">
         <route edges="saidaufal E3 dDestino"/>
     </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.22" type="car" depart="1408.00" departLane="best" departPos="last">
+    <vehicle id="saida_ufal_to_inter2Destino.11" type="car" depart="1408.00" departLane="best" departPos="last">
         <route edges="saidaufal E1 inter2Destino"/>
     </vehicle>
     <vehicle id="C_motorcycle.265" type="motorcycle" depart="1408.48" departLane="best" departPos="last">
@@ -4681,17 +4615,11 @@
     <vehicle id="inter1Origem_to_dDestino.46" type="car" depart="1472.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 -E1 E3 dDestino"/>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.23" type="car" depart="1472.00" departLane="best" departPos="last">
-        <route edges="inter1Origem -E5 inter2Destino"/>
-    </vehicle>
     <vehicle id="saida_ufal_to_C.92" type="car" depart="1472.00" departLane="best" departPos="last">
         <route edges="saidaufal E1 E5 cDestino"/>
     </vehicle>
     <vehicle id="saida_ufal_to_D.92" type="car" depart="1472.00" departLane="best" departPos="last">
         <route edges="saidaufal E3 dDestino"/>
-    </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.23" type="car" depart="1472.00" departLane="best" departPos="last">
-        <route edges="saidaufal E1 inter2Destino"/>
     </vehicle>
     <vehicle id="C_motorcycle.277" type="motorcycle" depart="1472.26" departLane="best" departPos="last">
         <route edges="cOrigem E2 E4 E1 E5 cDestino"/>
@@ -4882,7 +4810,7 @@
     <vehicle id="inter1Origem_to_dDestino.48" type="car" depart="1536.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 -E1 E3 dDestino"/>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.24" type="car" depart="1536.00" departLane="best" departPos="last">
+    <vehicle id="inter1Origem_to_inter2Destino.12" type="car" depart="1536.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 inter2Destino"/>
     </vehicle>
     <vehicle id="saida_ufal_to_C.96" type="car" depart="1536.00" departLane="best" departPos="last">
@@ -4891,7 +4819,7 @@
     <vehicle id="saida_ufal_to_D.96" type="car" depart="1536.00" departLane="best" departPos="last">
         <route edges="saidaufal E3 dDestino"/>
     </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.24" type="car" depart="1536.00" departLane="best" departPos="last">
+    <vehicle id="saida_ufal_to_inter2Destino.12" type="car" depart="1536.00" departLane="best" departPos="last">
         <route edges="saidaufal E1 inter2Destino"/>
     </vehicle>
     <vehicle id="C_motorcycle.289" type="motorcycle" depart="1536.04" departLane="best" departPos="last">
@@ -5101,17 +5029,11 @@
     <vehicle id="inter1Origem_to_dDestino.50" type="car" depart="1600.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 -E1 E3 dDestino"/>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.25" type="car" depart="1600.00" departLane="best" departPos="last">
-        <route edges="inter1Origem -E5 inter2Destino"/>
-    </vehicle>
     <vehicle id="saida_ufal_to_C.100" type="car" depart="1600.00" departLane="best" departPos="last">
         <route edges="saidaufal E1 E5 cDestino"/>
     </vehicle>
     <vehicle id="saida_ufal_to_D.100" type="car" depart="1600.00" departLane="best" departPos="last">
         <route edges="saidaufal E3 dDestino"/>
-    </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.25" type="car" depart="1600.00" departLane="best" departPos="last">
-        <route edges="saidaufal E1 inter2Destino"/>
     </vehicle>
     <vehicle id="D_car.302" type="car" depart="1602.41" departLane="best" departPos="last">
         <route edges="dOrigem -E5 -E1 E3 dDestino"/>
@@ -5290,7 +5212,7 @@
     <vehicle id="inter1Origem_to_dDestino.52" type="car" depart="1664.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 -E1 E3 dDestino"/>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.26" type="car" depart="1664.00" departLane="best" departPos="last">
+    <vehicle id="inter1Origem_to_inter2Destino.13" type="car" depart="1664.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 inter2Destino"/>
     </vehicle>
     <vehicle id="saida_ufal_to_C.104" type="car" depart="1664.00" departLane="best" departPos="last">
@@ -5299,7 +5221,7 @@
     <vehicle id="saida_ufal_to_D.104" type="car" depart="1664.00" departLane="best" departPos="last">
         <route edges="saidaufal E3 dDestino"/>
     </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.26" type="car" depart="1664.00" departLane="best" departPos="last">
+    <vehicle id="saida_ufal_to_inter2Destino.13" type="car" depart="1664.00" departLane="best" departPos="last">
         <route edges="saidaufal E1 inter2Destino"/>
     </vehicle>
     <vehicle id="C_car.361" type="car" depart="1664.21" departLane="best" departPos="last">
@@ -5485,17 +5407,11 @@
     <vehicle id="inter1Origem_to_dDestino.54" type="car" depart="1728.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 -E1 E3 dDestino"/>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.27" type="car" depart="1728.00" departLane="best" departPos="last">
-        <route edges="inter1Origem -E5 inter2Destino"/>
-    </vehicle>
     <vehicle id="saida_ufal_to_C.108" type="car" depart="1728.00" departLane="best" departPos="last">
         <route edges="saidaufal E1 E5 cDestino"/>
     </vehicle>
     <vehicle id="saida_ufal_to_D.108" type="car" depart="1728.00" departLane="best" departPos="last">
         <route edges="saidaufal E3 dDestino"/>
-    </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.27" type="car" depart="1728.00" departLane="best" departPos="last">
-        <route edges="saidaufal E1 inter2Destino"/>
     </vehicle>
     <vehicle id="C_car.375" type="car" depart="1728.75" departLane="best" departPos="last">
         <route edges="cOrigem E2 E4 E1 E5 cDestino"/>
@@ -5689,7 +5605,7 @@
     <vehicle id="inter1Origem_to_dDestino.56" type="car" depart="1792.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 -E1 E3 dDestino"/>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.28" type="car" depart="1792.00" departLane="best" departPos="last">
+    <vehicle id="inter1Origem_to_inter2Destino.14" type="car" depart="1792.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 inter2Destino"/>
     </vehicle>
     <vehicle id="saida_ufal_to_C.112" type="car" depart="1792.00" departLane="best" departPos="last">
@@ -5698,7 +5614,7 @@
     <vehicle id="saida_ufal_to_D.112" type="car" depart="1792.00" departLane="best" departPos="last">
         <route edges="saidaufal E3 dDestino"/>
     </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.28" type="car" depart="1792.00" departLane="best" departPos="last">
+    <vehicle id="saida_ufal_to_inter2Destino.14" type="car" depart="1792.00" departLane="best" departPos="last">
         <route edges="saidaufal E1 inter2Destino"/>
     </vehicle>
     <vehicle id="C_car.389" type="car" depart="1793.29" departLane="best" departPos="last">
@@ -5881,17 +5797,11 @@
     <vehicle id="inter1Origem_to_dDestino.58" type="car" depart="1856.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 -E1 E3 dDestino"/>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.29" type="car" depart="1856.00" departLane="best" departPos="last">
-        <route edges="inter1Origem -E5 inter2Destino"/>
-    </vehicle>
     <vehicle id="saida_ufal_to_C.116" type="car" depart="1856.00" departLane="best" departPos="last">
         <route edges="saidaufal E1 E5 cDestino"/>
     </vehicle>
     <vehicle id="saida_ufal_to_D.116" type="car" depart="1856.00" departLane="best" departPos="last">
         <route edges="saidaufal E3 dDestino"/>
-    </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.29" type="car" depart="1856.00" departLane="best" departPos="last">
-        <route edges="saidaufal E1 inter2Destino"/>
     </vehicle>
     <vehicle id="D_car.350" type="car" depart="1857.10" departLane="best" departPos="last">
         <route edges="dOrigem -E5 -E1 E3 dDestino"/>
@@ -6097,7 +6007,7 @@
     <vehicle id="inter1Origem_to_dDestino.60" type="car" depart="1920.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 -E1 E3 dDestino"/>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.30" type="car" depart="1920.00" departLane="best" departPos="last">
+    <vehicle id="inter1Origem_to_inter2Destino.15" type="car" depart="1920.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 inter2Destino"/>
     </vehicle>
     <vehicle id="saida_ufal_to_C.120" type="car" depart="1920.00" departLane="best" departPos="last">
@@ -6106,7 +6016,7 @@
     <vehicle id="saida_ufal_to_D.120" type="car" depart="1920.00" departLane="best" departPos="last">
         <route edges="saidaufal E3 dDestino"/>
     </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.30" type="car" depart="1920.00" departLane="best" departPos="last">
+    <vehicle id="saida_ufal_to_inter2Destino.15" type="car" depart="1920.00" departLane="best" departPos="last">
         <route edges="saidaufal E1 inter2Destino"/>
     </vehicle>
     <vehicle id="D_car.362" type="car" depart="1920.77" departLane="best" departPos="last">
@@ -6283,17 +6193,11 @@
     <vehicle id="inter1Origem_to_dDestino.62" type="car" depart="1984.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 -E1 E3 dDestino"/>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.31" type="car" depart="1984.00" departLane="best" departPos="last">
-        <route edges="inter1Origem -E5 inter2Destino"/>
-    </vehicle>
     <vehicle id="saida_ufal_to_C.124" type="car" depart="1984.00" departLane="best" departPos="last">
         <route edges="saidaufal E1 E5 cDestino"/>
     </vehicle>
     <vehicle id="saida_ufal_to_D.124" type="car" depart="1984.00" departLane="best" departPos="last">
         <route edges="saidaufal E3 dDestino"/>
-    </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.31" type="car" depart="1984.00" departLane="best" departPos="last">
-        <route edges="saidaufal E1 inter2Destino"/>
     </vehicle>
     <vehicle id="D_car.374" type="car" depart="1984.44" departLane="best" departPos="last">
         <route edges="dOrigem -E5 -E1 E3 dDestino"/>
@@ -6487,7 +6391,7 @@
     <vehicle id="inter1Origem_to_dDestino.64" type="car" depart="2048.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 -E1 E3 dDestino"/>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.32" type="car" depart="2048.00" departLane="best" departPos="last">
+    <vehicle id="inter1Origem_to_inter2Destino.16" type="car" depart="2048.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 inter2Destino"/>
     </vehicle>
     <vehicle id="saida_ufal_to_C.128" type="car" depart="2048.00" departLane="best" departPos="last">
@@ -6496,7 +6400,7 @@
     <vehicle id="saida_ufal_to_D.128" type="car" depart="2048.00" departLane="best" departPos="last">
         <route edges="saidaufal E3 dDestino"/>
     </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.32" type="car" depart="2048.00" departLane="best" departPos="last">
+    <vehicle id="saida_ufal_to_inter2Destino.16" type="car" depart="2048.00" departLane="best" departPos="last">
         <route edges="saidaufal E1 inter2Destino"/>
     </vehicle>
     <vehicle id="D_car.386" type="car" depart="2048.12" departLane="best" departPos="last">
@@ -6691,17 +6595,11 @@
     <vehicle id="inter1Origem_to_dDestino.66" type="car" depart="2112.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 -E1 E3 dDestino"/>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.33" type="car" depart="2112.00" departLane="best" departPos="last">
-        <route edges="inter1Origem -E5 inter2Destino"/>
-    </vehicle>
     <vehicle id="saida_ufal_to_C.132" type="car" depart="2112.00" departLane="best" departPos="last">
         <route edges="saidaufal E1 E5 cDestino"/>
     </vehicle>
     <vehicle id="saida_ufal_to_D.132" type="car" depart="2112.00" departLane="best" departPos="last">
         <route edges="saidaufal E3 dDestino"/>
-    </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.33" type="car" depart="2112.00" departLane="best" departPos="last">
-        <route edges="saidaufal E1 inter2Destino"/>
     </vehicle>
     <vehicle id="D_bus2.76" type="bus2" depart="2114.78" departLane="best" departPos="last">
         <route edges="dOrigem -E5 -E1 E3 dDestino"/>
@@ -6898,7 +6796,7 @@
     <vehicle id="inter1Origem_to_dDestino.68" type="car" depart="2176.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 -E1 E3 dDestino"/>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.34" type="car" depart="2176.00" departLane="best" departPos="last">
+    <vehicle id="inter1Origem_to_inter2Destino.17" type="car" depart="2176.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 inter2Destino"/>
     </vehicle>
     <vehicle id="saida_ufal_to_C.136" type="car" depart="2176.00" departLane="best" departPos="last">
@@ -6907,7 +6805,7 @@
     <vehicle id="saida_ufal_to_D.136" type="car" depart="2176.00" departLane="best" departPos="last">
         <route edges="saidaufal E3 dDestino"/>
     </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.34" type="car" depart="2176.00" departLane="best" departPos="last">
+    <vehicle id="saida_ufal_to_inter2Destino.17" type="car" depart="2176.00" departLane="best" departPos="last">
         <route edges="saidaufal E1 inter2Destino"/>
     </vehicle>
     <vehicle id="C_motorcycle.410" type="motorcycle" depart="2179.15" departLane="best" departPos="last">
@@ -7099,17 +6997,11 @@
     <vehicle id="inter1Origem_to_dDestino.70" type="car" depart="2240.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 -E1 E3 dDestino"/>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.35" type="car" depart="2240.00" departLane="best" departPos="last">
-        <route edges="inter1Origem -E5 inter2Destino"/>
-    </vehicle>
     <vehicle id="saida_ufal_to_C.140" type="car" depart="2240.00" departLane="best" departPos="last">
         <route edges="saidaufal E1 E5 cDestino"/>
     </vehicle>
     <vehicle id="saida_ufal_to_D.140" type="car" depart="2240.00" departLane="best" departPos="last">
         <route edges="saidaufal E3 dDestino"/>
-    </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.35" type="car" depart="2240.00" departLane="best" departPos="last">
-        <route edges="saidaufal E1 inter2Destino"/>
     </vehicle>
     <vehicle id="C_car.486" type="car" depart="2240.46" departLane="best" departPos="last">
         <route edges="cOrigem E2 E4 E1 E5 cDestino"/>
@@ -7297,7 +7189,7 @@
     <vehicle id="inter1Origem_to_dDestino.72" type="car" depart="2304.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 -E1 E3 dDestino"/>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.36" type="car" depart="2304.00" departLane="best" departPos="last">
+    <vehicle id="inter1Origem_to_inter2Destino.18" type="car" depart="2304.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 inter2Destino"/>
     </vehicle>
     <vehicle id="saida_ufal_to_C.144" type="car" depart="2304.00" departLane="best" departPos="last">
@@ -7306,7 +7198,7 @@
     <vehicle id="saida_ufal_to_D.144" type="car" depart="2304.00" departLane="best" departPos="last">
         <route edges="saidaufal E3 dDestino"/>
     </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.36" type="car" depart="2304.00" departLane="best" departPos="last">
+    <vehicle id="saida_ufal_to_inter2Destino.18" type="car" depart="2304.00" departLane="best" departPos="last">
         <route edges="saidaufal E1 inter2Destino"/>
     </vehicle>
     <vehicle id="C_car.500" type="car" depart="2305.00" departLane="best" departPos="last">
@@ -7489,17 +7381,11 @@
     <vehicle id="inter1Origem_to_dDestino.74" type="car" depart="2368.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 -E1 E3 dDestino"/>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.37" type="car" depart="2368.00" departLane="best" departPos="last">
-        <route edges="inter1Origem -E5 inter2Destino"/>
-    </vehicle>
     <vehicle id="saida_ufal_to_C.148" type="car" depart="2368.00" departLane="best" departPos="last">
         <route edges="saidaufal E1 E5 cDestino"/>
     </vehicle>
     <vehicle id="saida_ufal_to_D.148" type="car" depart="2368.00" departLane="best" departPos="last">
         <route edges="saidaufal E3 dDestino"/>
-    </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.37" type="car" depart="2368.00" departLane="best" departPos="last">
-        <route edges="saidaufal E1 inter2Destino"/>
     </vehicle>
     <vehicle id="C_car.514" type="car" depart="2369.54" departLane="best" departPos="last">
         <route edges="cOrigem E2 E4 E1 E5 cDestino"/>
@@ -7699,7 +7585,7 @@
     <vehicle id="inter1Origem_to_dDestino.76" type="car" depart="2432.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 -E1 E3 dDestino"/>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.38" type="car" depart="2432.00" departLane="best" departPos="last">
+    <vehicle id="inter1Origem_to_inter2Destino.19" type="car" depart="2432.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 inter2Destino"/>
     </vehicle>
     <vehicle id="saida_ufal_to_C.152" type="car" depart="2432.00" departLane="best" departPos="last">
@@ -7708,7 +7594,7 @@
     <vehicle id="saida_ufal_to_D.152" type="car" depart="2432.00" departLane="best" departPos="last">
         <route edges="saidaufal E3 dDestino"/>
     </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.38" type="car" depart="2432.00" departLane="best" departPos="last">
+    <vehicle id="saida_ufal_to_inter2Destino.19" type="car" depart="2432.00" departLane="best" departPos="last">
         <route edges="saidaufal E1 inter2Destino"/>
     </vehicle>
     <vehicle id="C_car.528" type="car" depart="2434.08" departLane="best" departPos="last">
@@ -7888,17 +7774,11 @@
     <vehicle id="inter1Origem_to_dDestino.78" type="car" depart="2496.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 -E1 E3 dDestino"/>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.39" type="car" depart="2496.00" departLane="best" departPos="last">
-        <route edges="inter1Origem -E5 inter2Destino"/>
-    </vehicle>
     <vehicle id="saida_ufal_to_C.156" type="car" depart="2496.00" departLane="best" departPos="last">
         <route edges="saidaufal E1 E5 cDestino"/>
     </vehicle>
     <vehicle id="saida_ufal_to_D.156" type="car" depart="2496.00" departLane="best" departPos="last">
         <route edges="saidaufal E3 dDestino"/>
-    </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.39" type="car" depart="2496.00" departLane="best" departPos="last">
-        <route edges="saidaufal E1 inter2Destino"/>
     </vehicle>
     <vehicle id="D_motorcycle.103" type="motorcycle" depart="2496.93" departLane="best" departPos="last">
         <route edges="dOrigem -E5 -E1 E3 dDestino"/>
@@ -8101,7 +7981,7 @@
     <vehicle id="inter1Origem_to_dDestino.80" type="car" depart="2560.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 -E1 E3 dDestino"/>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.40" type="car" depart="2560.00" departLane="best" departPos="last">
+    <vehicle id="inter1Origem_to_inter2Destino.20" type="car" depart="2560.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 inter2Destino"/>
     </vehicle>
     <vehicle id="saida_ufal_to_C.160" type="car" depart="2560.00" departLane="best" departPos="last">
@@ -8110,7 +7990,7 @@
     <vehicle id="saida_ufal_to_D.160" type="car" depart="2560.00" departLane="best" departPos="last">
         <route edges="saidaufal E3 dDestino"/>
     </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.40" type="car" depart="2560.00" departLane="best" departPos="last">
+    <vehicle id="saida_ufal_to_inter2Destino.20" type="car" depart="2560.00" departLane="best" departPos="last">
         <route edges="saidaufal E1 inter2Destino"/>
     </vehicle>
     <vehicle id="C_motorcycle.482" type="motorcycle" depart="2561.83" departLane="best" departPos="last">
@@ -8296,17 +8176,11 @@
     <vehicle id="inter1Origem_to_dDestino.82" type="car" depart="2624.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 -E1 E3 dDestino"/>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.41" type="car" depart="2624.00" departLane="best" departPos="last">
-        <route edges="inter1Origem -E5 inter2Destino"/>
-    </vehicle>
     <vehicle id="saida_ufal_to_C.164" type="car" depart="2624.00" departLane="best" departPos="last">
         <route edges="saidaufal E1 E5 cDestino"/>
     </vehicle>
     <vehicle id="saida_ufal_to_D.164" type="car" depart="2624.00" departLane="best" departPos="last">
         <route edges="saidaufal E3 dDestino"/>
-    </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.41" type="car" depart="2624.00" departLane="best" departPos="last">
-        <route edges="saidaufal E1 inter2Destino"/>
     </vehicle>
     <vehicle id="C_motorcycle.494" type="motorcycle" depart="2625.61" departLane="best" departPos="last">
         <route edges="cOrigem E2 E4 E1 E5 cDestino"/>
@@ -8497,7 +8371,7 @@
     <vehicle id="inter1Origem_to_dDestino.84" type="car" depart="2688.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 -E1 E3 dDestino"/>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.42" type="car" depart="2688.00" departLane="best" departPos="last">
+    <vehicle id="inter1Origem_to_inter2Destino.21" type="car" depart="2688.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 inter2Destino"/>
     </vehicle>
     <vehicle id="saida_ufal_to_C.168" type="car" depart="2688.00" departLane="best" departPos="last">
@@ -8506,7 +8380,7 @@
     <vehicle id="saida_ufal_to_D.168" type="car" depart="2688.00" departLane="best" departPos="last">
         <route edges="saidaufal E3 dDestino"/>
     </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.42" type="car" depart="2688.00" departLane="best" departPos="last">
+    <vehicle id="saida_ufal_to_inter2Destino.21" type="car" depart="2688.00" departLane="best" departPos="last">
         <route edges="saidaufal E1 inter2Destino"/>
     </vehicle>
     <vehicle id="C_motorcycle.506" type="motorcycle" depart="2689.39" departLane="best" departPos="last">
@@ -8692,17 +8566,11 @@
     <vehicle id="inter1Origem_to_dDestino.86" type="car" depart="2752.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 -E1 E3 dDestino"/>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.43" type="car" depart="2752.00" departLane="best" departPos="last">
-        <route edges="inter1Origem -E5 inter2Destino"/>
-    </vehicle>
     <vehicle id="saida_ufal_to_C.172" type="car" depart="2752.00" departLane="best" departPos="last">
         <route edges="saidaufal E1 E5 cDestino"/>
     </vehicle>
     <vehicle id="saida_ufal_to_D.172" type="car" depart="2752.00" departLane="best" departPos="last">
         <route edges="saidaufal E3 dDestino"/>
-    </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.43" type="car" depart="2752.00" departLane="best" departPos="last">
-        <route edges="saidaufal E1 inter2Destino"/>
     </vehicle>
     <vehicle id="C_car.597" type="car" depart="2752.17" departLane="best" departPos="last">
         <route edges="cOrigem E2 E4 E1 E5 cDestino"/>
@@ -8896,7 +8764,7 @@
     <vehicle id="inter1Origem_to_dDestino.88" type="car" depart="2816.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 -E1 E3 dDestino"/>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.44" type="car" depart="2816.00" departLane="best" departPos="last">
+    <vehicle id="inter1Origem_to_inter2Destino.22" type="car" depart="2816.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 inter2Destino"/>
     </vehicle>
     <vehicle id="saida_ufal_to_C.176" type="car" depart="2816.00" departLane="best" departPos="last">
@@ -8905,7 +8773,7 @@
     <vehicle id="saida_ufal_to_D.176" type="car" depart="2816.00" departLane="best" departPos="last">
         <route edges="saidaufal E3 dDestino"/>
     </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.44" type="car" depart="2816.00" departLane="best" departPos="last">
+    <vehicle id="saida_ufal_to_inter2Destino.22" type="car" depart="2816.00" departLane="best" departPos="last">
         <route edges="saidaufal E1 inter2Destino"/>
     </vehicle>
     <vehicle id="C_car.611" type="car" depart="2816.71" departLane="best" departPos="last">
@@ -9097,17 +8965,11 @@
     <vehicle id="inter1Origem_to_dDestino.90" type="car" depart="2880.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 -E1 E3 dDestino"/>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.45" type="car" depart="2880.00" departLane="best" departPos="last">
-        <route edges="inter1Origem -E5 inter2Destino"/>
-    </vehicle>
     <vehicle id="saida_ufal_to_C.180" type="car" depart="2880.00" departLane="best" departPos="last">
         <route edges="saidaufal E1 E5 cDestino"/>
     </vehicle>
     <vehicle id="saida_ufal_to_D.180" type="car" depart="2880.00" departLane="best" departPos="last">
         <route edges="saidaufal E3 dDestino"/>
-    </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.45" type="car" depart="2880.00" departLane="best" departPos="last">
-        <route edges="saidaufal E1 inter2Destino"/>
     </vehicle>
     <vehicle id="C_motorcycle.542" type="motorcycle" depart="2880.73" departLane="best" departPos="last">
         <route edges="cOrigem E2 E4 E1 E5 cDestino"/>
@@ -9295,7 +9157,7 @@
     <vehicle id="inter1Origem_to_dDestino.92" type="car" depart="2944.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 -E1 E3 dDestino"/>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.46" type="car" depart="2944.00" departLane="best" departPos="last">
+    <vehicle id="inter1Origem_to_inter2Destino.23" type="car" depart="2944.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 inter2Destino"/>
     </vehicle>
     <vehicle id="saida_ufal_to_C.184" type="car" depart="2944.00" departLane="best" departPos="last">
@@ -9304,7 +9166,7 @@
     <vehicle id="saida_ufal_to_D.184" type="car" depart="2944.00" departLane="best" departPos="last">
         <route edges="saidaufal E3 dDestino"/>
     </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.46" type="car" depart="2944.00" departLane="best" departPos="last">
+    <vehicle id="saida_ufal_to_inter2Destino.23" type="car" depart="2944.00" departLane="best" departPos="last">
         <route edges="saidaufal E1 inter2Destino"/>
     </vehicle>
     <vehicle id="C_motorcycle.554" type="motorcycle" depart="2944.51" departLane="best" departPos="last">
@@ -9490,17 +9352,11 @@
     <vehicle id="inter1Origem_to_dDestino.94" type="car" depart="3008.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 -E1 E3 dDestino"/>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.47" type="car" depart="3008.00" departLane="best" departPos="last">
-        <route edges="inter1Origem -E5 inter2Destino"/>
-    </vehicle>
     <vehicle id="saida_ufal_to_C.188" type="car" depart="3008.00" departLane="best" departPos="last">
         <route edges="saidaufal E1 E5 cDestino"/>
     </vehicle>
     <vehicle id="saida_ufal_to_D.188" type="car" depart="3008.00" departLane="best" departPos="last">
         <route edges="saidaufal E3 dDestino"/>
-    </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.47" type="car" depart="3008.00" departLane="best" departPos="last">
-        <route edges="saidaufal E1 inter2Destino"/>
     </vehicle>
     <vehicle id="C_motorcycle.566" type="motorcycle" depart="3008.29" departLane="best" departPos="last">
         <route edges="cOrigem E2 E4 E1 E5 cDestino"/>
@@ -9694,7 +9550,7 @@
     <vehicle id="inter1Origem_to_dDestino.96" type="car" depart="3072.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 -E1 E3 dDestino"/>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.48" type="car" depart="3072.00" departLane="best" departPos="last">
+    <vehicle id="inter1Origem_to_inter2Destino.24" type="car" depart="3072.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 inter2Destino"/>
     </vehicle>
     <vehicle id="saida_ufal_to_C.192" type="car" depart="3072.00" departLane="best" departPos="last">
@@ -9703,7 +9559,7 @@
     <vehicle id="saida_ufal_to_D.192" type="car" depart="3072.00" departLane="best" departPos="last">
         <route edges="saidaufal E3 dDestino"/>
     </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.48" type="car" depart="3072.00" departLane="best" departPos="last">
+    <vehicle id="saida_ufal_to_inter2Destino.24" type="car" depart="3072.00" departLane="best" departPos="last">
         <route edges="saidaufal E1 inter2Destino"/>
     </vehicle>
     <vehicle id="C_motorcycle.578" type="motorcycle" depart="3072.07" departLane="best" departPos="last">
@@ -9889,17 +9745,11 @@
     <vehicle id="inter1Origem_to_dDestino.98" type="car" depart="3136.00" departLane="best" departPos="last">
         <route edges="inter1Origem -E5 -E1 E3 dDestino"/>
     </vehicle>
-    <vehicle id="inter1Origem_to_inter2Destino.49" type="car" depart="3136.00" departLane="best" departPos="last">
-        <route edges="inter1Origem -E5 inter2Destino"/>
-    </vehicle>
     <vehicle id="saida_ufal_to_C.196" type="car" depart="3136.00" departLane="best" departPos="last">
         <route edges="saidaufal E1 E5 cDestino"/>
     </vehicle>
     <vehicle id="saida_ufal_to_D.196" type="car" depart="3136.00" departLane="best" departPos="last">
         <route edges="saidaufal E3 dDestino"/>
-    </vehicle>
-    <vehicle id="saida_ufal_to_inter2Destino.49" type="car" depart="3136.00" departLane="best" departPos="last">
-        <route edges="saidaufal E1 inter2Destino"/>
     </vehicle>
     <vehicle id="C_car.681" type="car" depart="3139.41" departLane="best" departPos="last">
         <route edges="cOrigem E2 E4 E1 E5 cDestino"/>
