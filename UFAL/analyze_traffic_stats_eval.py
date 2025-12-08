@@ -1,5 +1,8 @@
 # analyze_traffic_stats_eval.py
 
+# Análise detalhada das estatísticas de tráfego por lane durante um episódio de avaliação
+# usando um agente DQN treinado previamente.
+
 import csv
 import time
 
@@ -171,4 +174,4 @@ if __name__ == "__main__":
 
     save_csv(max_count, max_wait)
 
-    print("\n🎉 ANÁLISE COMPLETA — veja 'lane_stats_eval.csv' para a tabela detalhada.\n")
+    print("\n NÁLISE COMPLETA — veja 'lane_stats_eval.csv' para a tabela detalhada.\n")
