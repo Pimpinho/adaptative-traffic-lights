@@ -24,16 +24,16 @@
     <output>
 
         <!-- Métrica completa por veículo: travel time, route, waiting, time loss, etc -->
-        <tripinfo-output value="output/tripinfo.xml"/>
+        <tripinfo-output value="output_DQN/tripinfo.xml"/>
 
         <!-- Estatísticas agregadas por step: running, waiting, halting, queue -->
-        <summary-output value="output/summary.xml"/>
+        <summary-output value="output_DQN/summary.xml"/>
 
         <!-- Emissões e consumo (por veículo por step) -->
-        <emission-output value="output/emissions.xml"/>
+        <emission-output value="output_DQN/emissions.xml"/>
 
         <!-- Trajetória completa (posições x,y e velocidades por step) -->
-        <fcd-output value="output/fcd.xml"/>
+        <fcd-output value="output_DQN/fcd.xml"/>
 
     </output>
 

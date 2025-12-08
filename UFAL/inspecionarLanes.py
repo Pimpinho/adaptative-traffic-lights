@@ -1,4 +1,9 @@
 # inspect_sumo.py
+
+# Inspeciona e imprime informações sobre os semáforos e lanes controladas em uma simulação SUMO.
+# Útil para entender a topologia do tráfego e verificar se as lanes estão corretas.
+# Pega exatamente qual lanes são controladas por cada semáforo.
+
 import os
 import traci
 import sys

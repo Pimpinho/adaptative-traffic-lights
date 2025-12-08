@@ -1,4 +1,7 @@
 # test_state_extraction.py
+
+# Teste simples para verificar se a extração do estado do ambiente SUMO está funcionando corretamente.
+
 import time
 import numpy as np
 from sumo_env_norm import SUMOEnv

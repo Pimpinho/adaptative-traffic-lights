@@ -1,6 +1,6 @@
 # eval_trained_agent.py
 
-# Avalia um agente DQN treinado em um ambiente SUMO com halted vehicles.
+# Avalia um agente DQN treinado em um ambiente SUMO, coletando métricas de desempenho (flags no sumocfg)
 
 import time
 import numpy as np
@@ -42,7 +42,7 @@ if __name__ == "__main__":
     # 1) Cria o ambiente usando o SUMO-GUI
     env = SUMOEnv(
         sumo_binary="sumo-gui", 
-        sumo_cfg="C:\\Users\\USUARIO(A)\\Documents\\GitHub\\adaptative-traffic-lights\\UFAL\\sumo\\ufalConfig.sumocfg",
+        sumo_cfg="C:\\Users\\USUARIO(A)\\Documents\\GitHub\\adaptative-traffic-lights\\UFAL\\sumo\\ufalConfigMetricDQN.sumocfg",
         tl_ids=("tl1", "tl2", "tl3"),
         lanes_by_tl={
             "tl1": [

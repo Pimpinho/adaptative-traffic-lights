@@ -31,3 +31,7 @@ sumo -c ufalConfig.sumocfg --vehroute-output test.xml
 problemas encontrados durante a simulação:
     Importação do OSM com muita informação, muitos nodes, o que deixou a simulação muito lenta (ao pegar os dados em tempo real)
         Simulação foi otimizada, Sem perda de informação real.
+
+https://github.com/LucasAlegre/sumo-rl
+
+https://lucasalegre.github.io/sumo-rl/
