@@ -1,7 +1,7 @@
 # train_dqn_single_agent.py
 import random
 import numpy as np
-from collections import deque
+from collections import deque # para o replay buffer, quando ultrapassa capacity, descarta AUTOMATICAMENTE a entrada mais antiga
 import matplotlib.pyplot as plt
 import csv
 
@@ -19,21 +19,14 @@ LR = 5e-5
 BATCH_SIZE = 128
 BUFFER_CAPACITY = 100_000
 TARGET_UPDATE_STEPS = 10_000
-
 EPS_START = 1.0
 EPS_END = 0.10
 EPS_DECAY_STEPS = 100_000
-
 GAMMA = 0.99
-
 NUM_EPISODES = 50
 MAX_STEPS_PER_EPISODE = 720  # 3600s / 5s (control_interval = 5)
 
-
-
-
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
 
 # ==========================
 # 2) Replay Buffer
@@ -176,10 +169,10 @@ def train():
     )
 
     state = env.reset()
-    state_dim = len(state)
+    state_dim = len(state) # tamanho do array, define a quantiadade de neurônios na camada de entrada
     action_dim = 4  
 
-    agent = DQNAgent(state_dim, action_dim)
+    agent = DQNAgent(state_dim, action_dim) # Cria agente DQN
 
     for episode in range(NUM_EPISODES):
         state = env.reset()
